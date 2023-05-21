@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="63">
+    <author>Ostry/Cheva</author>
+    <version>1.1.0.0</version>
+    
+	<title>
+		<en>Silage/bioManure Silo Pack</en>
+	</title>
+
+    <description>
+       <en>
+<![CDATA[
+- Large Silo:
+Price: 9200 $
+- Large Silo/bioManure from silage:
+Price: 10200 $
+- Large Silo/bioManure from chaff:
+Price: 11200 $
+Daily Upkeep: 80 $
+]]>
+       </en>
+    </description>
+    <iconFilename>siloIcon.dds</iconFilename>
+    <multiplayer supported="true" />
+	
+	<l10n>
+	    <text name="SiloLarge"> 
+		    <en>Large Silo</en>
+			<de>Großes Silo</de>
+            <pl>Duży Silos</pl>	
+		</text>	
+	<text name="SiloLargeM"> 
+		<en>Large Silo/bioManure</en>
+		<de>Großes Silo/bioManure</de>
+		<pl>Duży Silos/bioManure</pl>	
+	</text>	
+	<text name="SiloLargeMFB"> 
+		<en>Large Silo/bioManure from chaff</en>
+		<de>Großes Silo/bioManure from chaff</de>
+		<pl>Duży Silos/bioManure from chaff</pl>	
+	</text>	
+    </l10n>
+	
+    <storeItems>        
+		<storeItem xmlFilename="Silos3.xml"/>
+		<storeItem xmlFilename="Silos3bioM.xml"/>
+		<storeItem xmlFilename="Silos3bioMFB.xml"/>
+    </storeItems>
+</modDesc>

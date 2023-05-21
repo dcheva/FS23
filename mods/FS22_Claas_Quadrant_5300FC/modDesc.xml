@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="60">
+    <author>Cheva</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Claas Quadrant 5300FC by Cheva</en>
+    </title>
+    <description>
+        <en>Claas Quadrant 5300FC by Cheva</en>
+    </description>
+    <iconFilename>icon.png</iconFilename>
+    <storeItems>
+        <storeItem xmlFilename="quadrant5300.xml"/>
+    </storeItems>
+</modDesc>

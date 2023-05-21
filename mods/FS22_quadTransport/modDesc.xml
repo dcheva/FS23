@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="67">
+    <author>CyrilModding88</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Quad Transport</en>
+        <fr>Transport Quad</fr>
+		<de>Quad-Transport</de>
+    </title>
+<description>
+<en><![CDATA[3-point platform for the transport of quads, variable width and length.
+- Price: 1200 $
+- Configurable Color: 100 $
+
+Quad trailer:
+- Price: 1000 $
+]]></en>
+<de><![CDATA[3-Punkt-Plattform für den Transport von Quads, variable Breite und Länge.
+- Preis: 1200 €
+- Farbkonfiguration: 100 €
+
+Quad Transportanhänger:
+- Preis: 1000 €
+]]></de>
+<fr><![CDATA[Plateau 3 points pour le transport des quads, largeur et longeur variable.
+- Prix : 1200 €
+- Couleur Configurable : 100 €
+
+Remorque Quad:
+- Prix : 1000 €
+]]> </fr>
+</description>
+
+    <iconFilename>icon.png</iconFilename>
+    <multiplayer supported="true" />
+
+	<storeItems>
+		<storeItem xmlFilename="quadTransport.xml" />
+		<storeItem xmlFilename="remorqueQuad.xml" />
+    </storeItems>
+<l10n>
+<text name="function_transQuad">
+<en>This tray can carry quads</en>
+<de>Dieses Gestell kann Quads transportieren</de>
+<fr>Ce plateau peut transporter les quads</fr>
+</text>
+<text name="name_porteQuad">
+<en>Front Quad Transport</en>
+<fr>Porte Quad Frontale</fr>
+<de>Quad-Transportgestell</de>
+</text>
+<text name="name_remorqueQuad">
+<en>Quad Trailer</en>
+<fr>Remorque Transport Quad</fr>
+<de>Quad-Transportanhänger</de>
+</text>
+<text name="name_PlancherRemorque">
+<en>Solide Floor</en>
+<fr>Plancher Plein</fr>
+<de>Fester-Boden</de>
+</text>
+<text name="name_PlancherQuad">
+<en>Quad Ramp</en>
+<fr>Rampes Quad</fr>
+<de>Quad-Rampe</de>
+</text>
+</l10n>
+</modDesc>

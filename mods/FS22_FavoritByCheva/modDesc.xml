@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="71">
+    <author>MoosAgrar/Cheva</author>
+    <version>1.71R1</version>
+    <iconFilename>store_favorit500.dds</iconFilename>
+    <title>
+        <en>500 Favorit Iveco 155 engine by Cheva</en>
+        <ru>500 Favorit Iveco 155 заказной от Чевы</ru>
+    </title>
+    <description>
+        <en><![CDATA[500 Favorit Iveco 155 engine by Cheva
+
+  v1.7R1:
+    - Adapted for FS19 v1.7
+
+  v1.0.1R:
+    - New engine - Iveco 150 Turbo (175HP, real model data used)
+    - Working ligfts powered - 3 times stronger. 
+    - Added rims and body colors.
+
+Fendt 500 Favorit
+Price: 76.000$
+Power: 115hp
+
+Configurations:
+- beacon lights
+- carpet
+- numberplate
+- front PTO
+- and many others
+
+
+Engine configuration:
+
+- Fendt Favorit 511
+- Fendt Favorit 512
+- Fendt Favorit 514
+- Fendt Favorit 515
+
+Animation:
+- This tractor is prepared with Mouse Control to open the doors, front window, back window and roof window.
+
+This tractor is prepared for precision farming with configurable cropsensors.
+
+Changelog 1.0.1.0:
+- added SimpleIC via Configuration
+- fixed several visual bugs
+- fixed small technical issues
+- added cropsensors for precision farming
+]]></en>
+        <ru><![CDATA[500 Favorit Iveco 155 заказной от Чевы
+
+  v1.7R1:
+    - Adapted for FS19 v1.7
+
+  v1.0.1R:
+    - Новый двигатель - Iveco 150 Turbo 
+        (150 лошадей, брал из реальных данных)
+    - Усилил свет в 3 раза, до 100 метров.
+    - Добавил раскраску дисков и кузова.
+
+Fendt 500 Favorit
+Price: 76.000$
+Power: 115hp
+
+Configurations:
+- beacon lights
+- carpet
+- numberplate
+- front PTO
+- and many others
+
+
+Engine configuration:
+
+- Fendt Favorit 511
+- Fendt Favorit 512
+- Fendt Favorit 514
+- Fendt Favorit 515
+
+Animation:
+- This tractor is prepared with Mouse Control to open the doors, front window, back window and roof window.
+
+This tractor is prepared for precision farming with configurable cropsensors.
+
+Changelog 1.0.1.0:
+- added SimpleIC via Configuration
+- fixed several visual bugs
+- fixed small technical issues
+- added cropsensors for precision farming
+]]></ru>
+    </description>
+
+    <brands><brand name="CHEVA" title="Cheva" image="brand_cheva.dds" /></brands>
+
+    <iconFilename>store_favorit500.dds</iconFilename>
+
+    <storeItems>
+        <storeItem xmlFilename="favorit500.xml"/>
+    </storeItems>
+
+	<multiplayer supported="true"/>
+
+	<vehicleTypes>
+		<type name="fendt500" parent="baseDrivable" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+			<specialization name="foldable"/>
+		</type>
+	</vehicleTypes>
+
+	<l10n>
+	    <text name="configuration_numberplate">
+			<en>Numberplate</en>
+			<de>Kennzeichen</de>
+		</text>
+		<text name="numberplateupper">
+			<en>Upper position</en>
+			<de>Obere Position</de>
+		</text>
+		<text name="numberplatelower">
+			<en>Lower position</en>
+			<de>Untere Position</de>
+		</text>
+		<text name="configuration_carpet">
+			<en>Carpet</en>
+			<de>Teppich</de>
+		</text>
+		<text name="configuration_exhaustGrid">
+			<en>Exhaust cover</en>
+			<de>Auspuffblende</de>
+		</text>
+		<text name="exhaustBlack">
+			<en>Black</en>
+			<de>Schwarz</de>
+		</text>
+		<text name="exhaustChrome">
+			<en>Chrome</en>
+			<de>Chrom</de>
+		</text>
+		<text name="configuration_terminalHolder">
+			<en>Terminalholder</en>
+			<de>Terminalhalter</de>
+		</text>
+		<text name="terminalHolder1">
+			<en>1</en>
+		</text>
+		<text name="terminalHolder2">
+			<en>2</en>
+		</text>
+		<text name="terminalHolderBoth">
+			<en>both</en>
+			<de>beide</de>
+		</text>
+		<text name="configuration_rul">
+			<en>Beacon Lights</en>
+			<de>Rundumleuchten</de>
+		</text>
+		<text name="rulno">
+			<en>No Beaconlight</en>
+			<de>Keine RUL</de>
+		</text>
+		<text name="rulleft">
+			<en>Beacon Light 1 L</en>
+			<de>RUL 1 Links</de>
+		</text>
+		<text name="rulboth">
+			<en>Beacon Light 1 L+R</en>
+			<de>RUL 1 Links+Rechts</de>
+		</text>
+		<text name="rulleft1">
+			<en>Beacon Light 2 L</en>
+			<de>RUL 2 Links</de>
+		</text>
+		<text name="rulboth1">
+			<en>Beacon Light 2 L+R</en>
+			<de>RUL 2 Links+Rechts</de>
+		</text>
+		<text name="FHNP">
+			<en>no Front PTO</en>
+			<de>ohne Frontzapfwelle</de>
+		</text>
+		<text name="FHP">
+			<en>Front PTO</en>
+			<de>mit Frontzapfwelle</de>
+		</text>
+		<text name="FendtClassic">
+			<en>Fendt bright Green</en>
+			<de>Fendt Hellgrün</de>
+		</text>
+		<text name="FendtDarkgreen">
+			<en>Fendt dark Green</en>
+			<de>Fendt Dunkelgrün</de>
+		</text>
+		<text name="FendtBlack">
+			<en>Fendt Black Beauty</en>
+		</text>
+		<text name="Petrol">
+			<en>Fendt Petrol Blue</en>
+			<de>Fendt Petrolblau</de>
+		</text>
+		<text name="Communal">
+			<en>Fendt Communal</en>
+			<de>Fendt Kommunal</de>
+		</text>
+		<text name="FendtRed">
+			<en>Fendt Red</en>
+			<de>Fendt Rot</de>
+		</text>
+		<text name="FendtWhite">
+			<en>Fendt White</en>
+			<de>Fendt Weiß</de>
+		</text>
+		<text name="Beige">
+			<en>Fendt Beige</en>
+		</text>
+		<text name="configuration_animationOption">
+			<en>Animations</en>
+			<de>Animationen</de>
+		</text>
+	</l10n>	
+</modDesc>

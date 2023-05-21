@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="60">
+    <author>Cheva</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>BERGMANN RRW 500 by Cheva</en>
+    </title>
+    <description>
+        <en>BERGMANN RRW 500 Description by Cheva</en>
+    </description>
+    <iconFilename>store_rrw500.dds</iconFilename>
+    <storeItems>
+        <storeItem xmlFilename="rrw500.xml"/>
+    </storeItems>
+</modDesc>

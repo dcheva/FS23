@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="dynamicMountAttacherTrailer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/vehicle.xsd">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+
+    <storeData>
+        <name>$l10n_name_porteQuad</name>
+        <functions>
+            <function>$l10n_function_transQuad</function>
+        </functions>
+        <rotation>0</rotation>
+        <shopRotationOffset>0 -90 0</shopRotationOffset>
+        <image>store_porteQuad.dds</image>
+        <price>1200</price>
+        <lifetime>600</lifetime>
+        <brand>Lizard</brand>
+        <category>lowloaders</category>
+        <vertexBufferMemoryUsage>726272</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>152832</indexBufferMemoryUsage>
+        <textureMemoryUsage>655360</textureMemoryUsage>
+        <audioMemoryUsage>0</audioMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+
+    <base>
+        <typeDesc>$l10n_typeDesc_lowLoader</typeDesc>
+        <filename>quadTransport.i3d</filename>
+        <size width="5" length="2.5" />
+        <components>
+            <component centerOfMass="0.00 0.32 0.96" solverIterationCount="10" mass="200" />
+        </components>
+        <schemaOverlay attacherJointPosition="0 0" name="IMPLEMENT" />
+        <mapHotspot type="TRAILER" />
+    </base>
+
+    <attachable>
+        <inputAttacherJoints>
+            <inputAttacherJoint node="attacherJoint" jointType="implement" topReferenceNode="topReferenceNode" lowerRotLimitScale="0 0 0" upperRotationOffset="3" lowerRotationOffset="0" needsLowering="false">
+                <distanceToGround lower="0" upper="0.5" />
+            </inputAttacherJoint>
+        </inputAttacherJoints>
+        <support animationName="moveSupport" />
+    </attachable>
+
+
+    <connectionHoses>
+		<hose inputAttacherJointIndices="1" type="hydraulicIn" node="flexHydroIn" length="0.93" diameter="0.02" straighteningFactor="2">
+			<objectChange node="flexHydroInDetache" visibilityActive="false" visibilityInactive="true"/>
+		</hose>
+		<hose inputAttacherJointIndices="1" type="hydraulicOut" node="flexHydroOut" length="0.93" diameter="0.02" straighteningFactor="2">
+			<objectChange node="flexHydroOutDetache" visibilityActive="false" visibilityInactive="true"/>
+		</hose>
+		<hose inputAttacherJointIndices="1" type="electric" node="electricIn" length="0.93" diameter="0.01" straighteningFactor="2">
+			<objectChange node="flexElectDetache" visibilityActive="false" visibilityInactive="true"/>
+		</hose>
+    </connectionHoses>
+
+	<dynamicallyLoadedParts>
+		<dynamicallyLoadedPart node="1|0" linkNode="flexHydroOutAdapter" filename="$data/shared/connectionHoses/connectors.i3d"/>
+		<dynamicallyLoadedPart node="1|0" linkNode="flexHydroInAdapter" filename="$data/shared/connectionHoses/connectors.i3d"/>
+		<dynamicallyLoadedPart node="1|1" linkNode="electric_detachedAdapter" filename="$data/shared/connectionHoses/connectors.i3d"/>
+	</dynamicallyLoadedParts>
+
+    <lights>
+        <sharedLight linkNode="sharedLightLeft"       filename="$data/shared/assets/lights/lizard/frontLight01_left.xml" />
+        <sharedLight linkNode="sharedLightRight"       filename="$data/shared/assets/lights/lizard/frontLight01_right.xml" />
+
+        <realLights>
+            <high>
+                <!-- <light node="frontLightLowLeft" lightTypes="0"/> -->
+                <!-- <light node="frontLightLowRight" lightTypes="0"/> -->
+                <turnLightLeft node="turnLightleftBack"/>
+                <turnLightRight node="turnLightRightBack"/>
+            </high>
+        </realLights>
+    </lights>
+
+    <animations>
+        <animation name="moveSupport">
+            <part node="bequilleAvD" startTime="0" endTime="0.3" startTrans="0.186 -0.09 -0.223" endTrans="0.186 -0.314 -0.223" />
+            <part node="bequilleAvG" startTime="0" endTime="0.3" startTrans="-0.186 -0.09 -0.223" endTrans="-0.186 -0.314 -0.223" />
+			
+            <part node="bequilleArD" startTime="0" endTime="0.3" startTrans="-0.186 -0.09 0.226" endTrans="-0.186 -0.314 0.226" />
+            <part node="bequilleArG" startTime="0" endTime="0.3" startTrans="0.186 -0.09 0.226" endTrans="0.186 -0.314 0.226" />
+
+            <sound template="clackVar1" startTime="0.1"  volumeScale="1"   pitchScale="1.3" linkNode="attacherJoint" />
+            <sound template="clackVar6" startTime="0.29" volumeScale="0.4" pitchScale="1.3" linkNode="attacherJoint" />
+        </animation>
+
+		<animation name="longueur">
+			<part node="milieuAvant" startTime="0" endTime="2.5" startTrans="0 0.233 -1.081" 	endTrans="0 0.233 -0.5" tangentType="spline"/>
+
+            <sound template="defaultHydraulicSound" startTime="0.1"  endTime="2"    volumeScale="1"   pitchScale="0.8" fadeIn="0.1" fadeOut="0.1" />
+            <sound template="defaultHydraulicSound" startTime="1.5"  endTime="2.49" volumeScale="0.8" pitchScale="1.4" fadeIn="0.1" fadeOut="0.1" />
+            <sound template="latchSmall"            startTime="0.1"                 volumeScale="0.1" pitchScale="1.4" />
+            <sound template="clackVar1"             startTime="1.2"                 volumeScale="0.5" pitchScale="1.6" />
+            <sound template="clackVar1"             startTime="0.2"  direction="1"  volumeScale="1"   pitchScale="1.1" />
+            <sound template="clackVar6"             startTime="1.9"  direction="1"  volumeScale="0.7" pitchScale="0.9" />
+            <sound template="clackVar6"             startTime="2.49" direction="1"  volumeScale="1"   pitchScale="1.1" />
+            <sound template="sheetImp02"            startTime="2.49" direction="1"  volumeScale="1"   pitchScale="1.4" />
+            <sound template="hingeSmall"            startTime="2.3"  direction="-1" volumeScale="0.2" pitchScale="0.7" />
+            <sound template="clackVar6"             startTime="0.2"  direction="-1" volumeScale="1"   pitchScale="0.9" />
+            <sound template="cylinderPunch"         startTime="0.2"  direction="-1" volumeScale="0.3" pitchScale="2" />
+            <sound template="clackVar6"             startTime="1.3"  direction="-1" volumeScale="0.4" pitchScale="1.5" />
+		</animation>
+
+		<animation name="largeurDroit">
+			<part node="rallongeArriereD" startTime="0" endTime="2.5" startTrans="1.602 0.091 -0.175" 	endTrans="1.25 0.091 -0.175" tangentType="spline"/>
+			<part node="rallongeAvantD" startTime="0" endTime="2.5" startTrans="1.602 0.088 0.172" endTrans="1.25 0.088 0.172" tangentType="spline"/>
+
+            <sound template="defaultHydraulicSound" startTime="0.1"  endTime="2"    volumeScale="1"   pitchScale="0.8" fadeIn="0.1" fadeOut="0.1" />
+            <sound template="defaultHydraulicSound" startTime="1.5"  endTime="2.49" volumeScale="0.8" pitchScale="1.4" fadeIn="0.1" fadeOut="0.1" />
+            <sound template="latchSmall"            startTime="0.1"                 volumeScale="0.1" pitchScale="1.4" />
+            <sound template="clackVar1"             startTime="1.2"                 volumeScale="0.5" pitchScale="1.6" />
+            <sound template="clackVar1"             startTime="0.2"  direction="1"  volumeScale="1"   pitchScale="1.1" />
+            <sound template="clackVar6"             startTime="1.9"  direction="1"  volumeScale="0.7" pitchScale="0.9" />
+            <sound template="clackVar6"             startTime="2.49" direction="1"  volumeScale="1"   pitchScale="1.1" />
+            <sound template="sheetImp02"            startTime="2.49" direction="1"  volumeScale="1"   pitchScale="1.4" />
+            <sound template="hingeSmall"            startTime="2.3"  direction="-1" volumeScale="0.2" pitchScale="0.7" />
+            <sound template="clackVar6"             startTime="0.2"  direction="-1" volumeScale="1"   pitchScale="0.9" />
+            <sound template="cylinderPunch"         startTime="0.2"  direction="-1" volumeScale="0.3" pitchScale="2" />
+            <sound template="clackVar6"             startTime="1.3"  direction="-1" volumeScale="0.4" pitchScale="1.5" />
+		</animation>
+
+		<animation name="largeurGauche">
+			<part node="rallongeArriereG" startTime="0" endTime="2.5" startTrans="-1.602 0.091 -0.175" 	endTrans="-1.25 0.091 -0.175" tangentType="spline"/>
+			<part node="rallongeAvantG" startTime="0" 	endTime="2.5" startTrans="-1.602 0.088 0.172" endTrans="-1.25 0.088 0.172" tangentType="spline"/>
+
+            <sound template="defaultHydraulicSound" startTime="0.1"  endTime="2"    volumeScale="1"   pitchScale="0.8" fadeIn="0.1" fadeOut="0.1" />
+            <sound template="defaultHydraulicSound" startTime="1.5"  endTime="2.49" volumeScale="0.8" pitchScale="1.4" fadeIn="0.1" fadeOut="0.1" />
+            <sound template="latchSmall"            startTime="0.1"                 volumeScale="0.1" pitchScale="1.4" />
+            <sound template="clackVar1"             startTime="1.2"                 volumeScale="0.5" pitchScale="1.6" />
+            <sound template="clackVar1"             startTime="0.2"  direction="1"  volumeScale="1"   pitchScale="1.1" />
+            <sound template="clackVar6"             startTime="1.9"  direction="1"  volumeScale="0.7" pitchScale="0.9" />
+            <sound template="clackVar6"             startTime="2.49" direction="1"  volumeScale="1"   pitchScale="1.1" />
+            <sound template="sheetImp02"            startTime="2.49" direction="1"  volumeScale="1"   pitchScale="1.4" />
+            <sound template="hingeSmall"            startTime="2.3"  direction="-1" volumeScale="0.2" pitchScale="0.7" />
+            <sound template="clackVar6"             startTime="0.2"  direction="-1" volumeScale="1"   pitchScale="0.9" />
+            <sound template="cylinderPunch"         startTime="0.2"  direction="-1" volumeScale="0.3" pitchScale="2" />
+            <sound template="clackVar6"             startTime="1.3"  direction="-1" volumeScale="0.4" pitchScale="1.5" />
+		</animation>
+		<animation name="RampeDroit">
+			<part node="RampeArriereD" startTime="0" 	endTime="2.5" startRot="0 0 90" endRot="0 0 -30" tangentType="spline"/>
+			<part node="RampeAvantD" startTime="0" 		endTime="2.5" startRot="0 0 90" endRot="0 0 -30" tangentType="spline"/>
+
+            <sound template="defaultHydraulicSound" startTime="0.1"  endTime="2"    volumeScale="1"   pitchScale="0.8" fadeIn="0.1" fadeOut="0.1" />
+            <sound template="defaultHydraulicSound" startTime="1.5"  endTime="2.49" volumeScale="0.8" pitchScale="1.4" fadeIn="0.1" fadeOut="0.1" />
+            <sound template="latchSmall"            startTime="0.1"                 volumeScale="0.1" pitchScale="1.4" />
+            <sound template="clackVar1"             startTime="1.2"                 volumeScale="0.5" pitchScale="1.6" />
+            <sound template="clackVar1"             startTime="0.2"  direction="1"  volumeScale="1"   pitchScale="1.1" />
+            <sound template="clackVar6"             startTime="1.9"  direction="1"  volumeScale="0.7" pitchScale="0.9" />
+            <sound template="clackVar6"             startTime="2.49" direction="1"  volumeScale="1"   pitchScale="1.1" />
+            <sound template="sheetImp02"            startTime="2.49" direction="1"  volumeScale="1"   pitchScale="1.4" />
+            <sound template="hingeSmall"            startTime="2.3"  direction="-1" volumeScale="0.2" pitchScale="0.7" />
+            <sound template="clackVar6"             startTime="0.2"  direction="-1" volumeScale="1"   pitchScale="0.9" />
+            <sound template="cylinderPunch"         startTime="0.2"  direction="-1" volumeScale="0.3" pitchScale="2" />
+            <sound template="clackVar6"             startTime="1.3"  direction="-1" volumeScale="0.4" pitchScale="1.5" />
+		</animation>
+		<animation name="RampeGauche">
+			<part node="RampeArriereG" startTime="0" 	endTime="2.5" startRot="0 0 -90" endRot="0 0 30" tangentType="spline"/>
+			<part node="RampeAvantG" startTime="0" 		endTime="2.5" startRot="0 0 -90" endRot="0 0 30" tangentType="spline"/>
+
+            <sound template="defaultHydraulicSound" startTime="0.1"  endTime="2"    volumeScale="1"   pitchScale="0.8" fadeIn="0.1" fadeOut="0.1" />
+            <sound template="defaultHydraulicSound" startTime="1.5"  endTime="2.49" volumeScale="0.8" pitchScale="1.4" fadeIn="0.1" fadeOut="0.1" />
+            <sound template="latchSmall"            startTime="0.1"                 volumeScale="0.1" pitchScale="1.4" />
+            <sound template="clackVar1"             startTime="1.2"                 volumeScale="0.5" pitchScale="1.6" />
+            <sound template="clackVar1"             startTime="0.2"  direction="1"  volumeScale="1"   pitchScale="1.1" />
+            <sound template="clackVar6"             startTime="1.9"  direction="1"  volumeScale="0.7" pitchScale="0.9" />
+            <sound template="clackVar6"             startTime="2.49" direction="1"  volumeScale="1"   pitchScale="1.1" />
+            <sound template="sheetImp02"            startTime="2.49" direction="1"  volumeScale="1"   pitchScale="1.4" />
+            <sound template="hingeSmall"            startTime="2.3"  direction="-1" volumeScale="0.2" pitchScale="0.7" />
+            <sound template="clackVar6"             startTime="0.2"  direction="-1" volumeScale="1"   pitchScale="0.9" />
+            <sound template="cylinderPunch"         startTime="0.2"  direction="-1" volumeScale="0.3" pitchScale="2" />
+            <sound template="clackVar6"             startTime="1.3"  direction="-1" volumeScale="0.4" pitchScale="1.5" />
+		</animation>
+    </animations>
+
+    <cylindered>
+
+        <movingTools>
+            <movingTool node="milieuAvant" playSound="true">
+                <controls axis="AXIS_FRONTLOADER_TOOL3" invertAxis="true" mouseSpeedFactor="0.6" iconName="WORKING_WIDTH_TRANSLATE_X" />
+                <animation animName="longueur" animSpeed="0.5"/>
+				<dependentPart node="FutVerrinLongeur"/>
+            </movingTool>
+            <movingTool node="rallongeArriereD" playSound="true">
+                <controls axis="AXIS_FRONTLOADER_TOOL" invertAxis="false" mouseSpeedFactor="0.6" iconName="WORKING_WIDTH_TRANSLATE_X" />
+                <animation animName="largeurDroit" animSpeed="0.5"/>
+				<dependentPart node="FutVerrinLargeurD"/>
+            </movingTool>
+            <movingTool node="rallongeArriereG" playSound="true">
+                <controls axis="AXIS_FRONTLOADER_TOOL2" invertAxis="false" mouseSpeedFactor="0.6" iconName="FRONTLOADER_ARM_ROTATE_TOOL" />
+                <animation animName="largeurGauche" animSpeed="0.5"/>
+				<dependentPart node="FutVerrinLargeurG"/>
+            </movingTool>
+            <movingTool node="RampeArriereD" playSound="true">
+                <controls axis="AXIS_FRONTLOADER_ARM" invertAxis="false" mouseSpeedFactor="0.6" iconName="FRONTLOADER_ARM_ROTATE_TOOL" />
+                <animation animName="RampeDroit" animSpeed="0.5"/>
+ 				<dependentPart node="FutVerrinRampeD"/>
+           </movingTool>
+            <movingTool node="RampeArriereG" playSound="true">
+                <controls axis="AXIS_FRONTLOADER_ARM2" invertAxis="false" mouseSpeedFactor="0.6" iconName="WORKING_WIDTH_TRANSLATE_X" />
+                <animation animName="RampeGauche" animSpeed="0.5"/>
+ 				<dependentPart node="FutVerrinRampeG"/>
+            </movingTool>
+		</movingTools>
+		
+        <movingParts>
+			<movingPart node="FutVerrinLongeur" referencePoint="PushVerrinLongeur_ref" referenceFrame="PushVerrinLongeur_ref" >
+				<translatingPart node="PushVerrinLongeur"/>
+			</movingPart>
+            <movingPart node="FutVerrinLargeurD" referencePoint="PushVerrinLargeur2D_ref" referenceFrame="PushVerrinLargeur2D_ref" divideTranslatingDistance="false">
+                <translatingPart node="PushVerrinLargeur01D" maxXTrans="0.5"/>
+            </movingPart>
+            <movingPart node="FutVerrinLargeurG" referencePoint="PushVerrinLargeur2G_ref" referenceFrame="PushVerrinLargeur2G_ref" divideTranslatingDistance="false">
+                <translatingPart node="PushVerrinLargeur01G" maxXTrans="0.5"/>
+            </movingPart>
+            <movingPart node="FutVerrinRampeD" referencePoint="PushVerrinRampeD_ref" referenceFrame="PushVerrinRampeD_ref">
+                <translatingPart node="PushVerrinRampeD" maxXTrans="0.5"/>
+            </movingPart>
+            <movingPart node="FutVerrinRampeG" referencePoint="PushVerrinRampeG_ref" referenceFrame="PushVerrinRampeG_ref">
+                <translatingPart node="PushVerrinRampeG" maxXTrans="0.5"/>
+            </movingPart>
+        </movingParts>
+	</cylindered>
+
+    <foliageBending>
+        <bendingNode minX="-1.6" maxX="1.6" minZ="-1.2" maxZ="1.2" yOffset="0.1" />
+    </foliageBending>
+
+    <ai>
+         <collisionTrigger node="aiCollisionNode" width="9.4" height="2.1"/>
+        <agentAttachment jointNode="attacherJoint" width="3" height="4" length="9" lengthOffset="4"/>
+    </ai>
+
+    <tensionBelts>
+        <tensionBeltsConfigurations>
+            <tensionBeltsConfiguration>
+                <tensionBelts linkNode="tensionBelts" rootNode="quadTransport_main_component1" jointNode="quadTransport_main_component1" maxEdgeLength="0.1" geometryBias="0.01" ratchetPosition="0.3" defaultOffset="0" defaultOffsetSide="0.1" defaultHeight="3" interactionRadius="1.75" totalInteractionRadius="3.5" activationTrigger="beltActivationTrigger">
+                    <tensionBelt startNode="beltStart1" endNode="beltEnd1" offsetLeft="0.85"/>
+
+                    <sounds>
+                        <addBelt    template="beltOpen" />
+                        <removeBelt template="beltClose" />
+                    </sounds>
+                </tensionBelts>
+            </tensionBeltsConfiguration>
+        </tensionBeltsConfigurations>
+    </tensionBelts>
+
+    <baseMaterial>
+        <material name="quadTransport_mat" baseNode="quadTransport_vis">
+            <shaderParameter name="colorMat0" value="AGCO_GREY1"/>
+        </material>
+    </baseMaterial>
+
+    <baseMaterialConfigurations price="100" useDefaultColors="true" defaultColorIndex="6">
+        <material name="quadTransport_mat" shaderParameter="colorMat0" />
+    </baseMaterialConfigurations>
+
+    <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
+    <washable dirtDuration="90" washDuration="1" workMultiplier="2" fieldMultiplier="2"/>
+
+<i3dMappings>
+  <i3dMapping id="quadTransport_main_component1" node="0>" />
+  <i3dMapping id="quadTransport_vis" node="0>0" />
+  <i3dMapping id="attachable" node="0>0|0" />
+  <i3dMapping id="attacherJoint" node="0>0|0|0" />
+  <i3dMapping id="topReferenceNode" node="0>0|0|1" />
+  <i3dMapping id="flexibles" node="0>0|0|2" />
+  <i3dMapping id="electricIn" node="0>0|0|2|0" />
+  <i3dMapping id="flexElectDetache" node="0>0|0|2|0|0" />
+  <i3dMapping id="electric_detachedAdapter" node="0>0|0|2|0|0|0" />
+  <i3dMapping id="flexHydroIn" node="0>0|0|2|1" />
+  <i3dMapping id="flexHydroInDetache" node="0>0|0|2|1|0" />
+  <i3dMapping id="flexHydroInAdapter" node="0>0|0|2|1|0|0" />
+  <i3dMapping id="flexHydroOut" node="0>0|0|2|2" />
+  <i3dMapping id="flexHydroOutDetache" node="0>0|0|2|2|0" />
+  <i3dMapping id="flexHydroOutAdapter" node="0>0|0|2|2|0|0" />
+  <i3dMapping id="movingParts" node="0>0|1" />
+  <i3dMapping id="milieuArriere" node="0>0|1|0" />
+  <i3dMapping id="FutVerrinLargeurD" node="0>0|1|0|0" />
+  <i3dMapping id="PushVerrinLargeur01D" node="0>0|1|0|0|0" />
+  <i3dMapping id="PushVerrinLargeurD" node="0>0|1|0|0|0|0" />
+  <i3dMapping id="FutVerrinLargeurG" node="0>0|1|0|1" />
+  <i3dMapping id="PushVerrinLargeur01G" node="0>0|1|0|1|0" />
+  <i3dMapping id="PushVerrinLargeur02G" node="0>0|1|0|1|0|0" />
+  <i3dMapping id="FutVerrinLongeur" node="0>0|1|0|2" />
+  <i3dMapping id="PushVerrinLongeur" node="0>0|1|0|2|0" />
+  <i3dMapping id="collision_0" node="0>0|1|0|3" />
+  <i3dMapping id="ColArriereMilieu" node="0>0|1|0|3|0" />
+  <i3dMapping id="ColMilieuArriereBas" node="0>0|1|0|3|1" />
+  <i3dMapping id="milieuArriere_decal" node="0>0|1|0|4" />
+  <i3dMapping id="rallongeArriereD" node="0>0|1|0|5" />
+  <i3dMapping id="FutVerrinRampeD" node="0>0|1|0|5|0" />
+  <i3dMapping id="PushVerrinRampeD" node="0>0|1|0|5|0|0" />
+  <i3dMapping id="verrinRampeD" node="0>0|1|0|5|0|1" />
+  <i3dMapping id="verrinRampeDBone" node="0>0|1|0|5|0|1|0" />
+  <i3dMapping id="PushVerrinLargeur2D_ref" node="0>0|1|0|5|1" />
+  <i3dMapping id="RampeArriereD" node="0>0|1|0|5|2" />
+  <i3dMapping id="PushVerrinRampeD_ref" node="0>0|1|0|5|2|0" />
+  <i3dMapping id="ColRampeArriereBasD" node="0>0|1|0|5|2|1" />
+  <i3dMapping id="bequilleArD" node="0>0|1|0|5|3" />
+  <i3dMapping id="colBequilleArD" node="0>0|1|0|5|3|0" />
+  <i3dMapping id="clavetteArD" node="0>0|1|0|5|4" />
+  <i3dMapping id="collision_1" node="0>0|1|0|5|5" />
+  <i3dMapping id="ColArriereHautD" node="0>0|1|0|5|5|0" />
+  <i3dMapping id="ColRallongeArriereBasD" node="0>0|1|0|5|5|1" />
+  <i3dMapping id="rallongeArriereD_decal" node="0>0|1|0|5|6" />
+  <i3dMapping id="rallongeD" node="0>0|1|0|5|7" />
+  <i3dMapping id="rallongeDBone" node="0>0|1|0|5|7|0" />
+  <i3dMapping id="rallongeArriereG" node="0>0|1|0|6" />
+  <i3dMapping id="FutVerrinRampeG" node="0>0|1|0|6|0" />
+  <i3dMapping id="PushVerrinRampeG" node="0>0|1|0|6|0|0" />
+  <i3dMapping id="verrinRampeG" node="0>0|1|0|6|0|1" />
+  <i3dMapping id="verrinRampeGBone" node="0>0|1|0|6|0|1|0" />
+  <i3dMapping id="PushVerrinLargeur2G_ref" node="0>0|1|0|6|1" />
+  <i3dMapping id="RampeArriereG" node="0>0|1|0|6|2" />
+  <i3dMapping id="PushVerrinRampeG_ref" node="0>0|1|0|6|2|0" />
+  <i3dMapping id="ColRampeArriereBasG" node="0>0|1|0|6|2|1" />
+  <i3dMapping id="bequilleArG" node="0>0|1|0|6|3" />
+  <i3dMapping id="colBequilleArG" node="0>0|1|0|6|3|0" />
+  <i3dMapping id="clavetteArG" node="0>0|1|0|6|4" />
+  <i3dMapping id="colision" node="0>0|1|0|6|5" />
+  <i3dMapping id="ColArriereHautG" node="0>0|1|0|6|5|0" />
+  <i3dMapping id="ColRallongeArriereBasG" node="0>0|1|0|6|5|1" />
+  <i3dMapping id="rallongeArriereG_decal" node="0>0|1|0|6|6" />
+  <i3dMapping id="rallongeG" node="0>0|1|0|6|7" />
+  <i3dMapping id="rallongeGBone" node="0>0|1|0|6|7|0" />
+
+  <i3dMapping id="tensionBelts" 			node="0>0|1|1|5" />
+  <i3dMapping id="beltActivationTrigger" 	node="0>0|1|1|5|0" />
+  <i3dMapping id="beltStart1" 				node="0>0|1|1|5|1" />
+  <i3dMapping id="beltEnd1" 				node="0>0|1|1|5|1|0" />
+
+  <i3dMapping id="milieuAvant" node="0>0|1|1" />
+  <i3dMapping id="PushVerrinLongeur_ref" node="0>0|1|1|0" />
+  <i3dMapping id="collision_2" node="0>0|1|1|1" />
+  <i3dMapping id="ColAvantMilieu" node="0>0|1|1|1|0" />
+  <i3dMapping id="ColMilieuAvantBas" node="0>0|1|1|1|1" />
+  <i3dMapping id="decalCentre" node="0>0|1|1|2" />
+  <i3dMapping id="rallongeAvantD" node="0>0|1|1|3" />
+  <i3dMapping id="RampeAvantD" node="0>0|1|1|3|0" />
+  <i3dMapping id="ColRampeAvantBasD" node="0>0|1|1|3|0|0" />
+  <i3dMapping id="bequilleAvG" node="0>0|1|1|3|1" />
+  <i3dMapping id="colBequilleAvG" node="0>0|1|1|3|1|0" />
+  <i3dMapping id="clavetteAvD" node="0>0|1|1|3|2" />
+  <i3dMapping id="collision_3" node="0>0|1|1|3|3" />
+  <i3dMapping id="ColAvantHautD" node="0>0|1|1|3|3|0" />
+  <i3dMapping id="ColRallongeAvantBasD" node="0>0|1|1|3|3|1" />
+  <i3dMapping id="decalD" node="0>0|1|1|3|4" />
+  <i3dMapping id="LightsD" node="0>0|1|1|3|5" />
+  <i3dMapping id="sharedLightRight" node="0>0|1|1|3|5|0" />
+  <i3dMapping id="turnLightRightBack" node="0>0|1|1|3|5|1" />
+  <i3dMapping id="rallongeAvantG" node="0>0|1|1|4" />
+  <i3dMapping id="RampeAvantG" node="0>0|1|1|4|0" />
+  <i3dMapping id="ColRampeAvantBasG" node="0>0|1|1|4|0|0" />
+  <i3dMapping id="bequilleAvD" node="0>0|1|1|4|1" />
+  <i3dMapping id="colBequilleAvD" node="0>0|1|1|4|1|0" />
+  <i3dMapping id="clavetteAvG" node="0>0|1|1|4|2" />
+  <i3dMapping id="collision_4" node="0>0|1|1|4|3" />
+  <i3dMapping id="ColAvantHautG" node="0>0|1|1|4|3|0" />
+  <i3dMapping id="ColRallongeAvantBasG" node="0>0|1|1|4|3|1" />
+  <i3dMapping id="decalG" node="0>0|1|1|4|4" />
+  <i3dMapping id="LightsG" node="0>0|1|1|4|6" />
+  <i3dMapping id="sharedLightLeft" node="0>0|1|1|4|6|0" />
+  <i3dMapping id="turnLightleftBack" node="0>0|1|1|4|6|1" />
+  <i3dMapping id="tensionBelts_1" node="0>0|1|1|5" />
+  <i3dMapping id="AI" node="0>0|2" />
+  <i3dMapping id="aiCollisionBack" node="0>0|2|0" />
+  <i3dMapping id="aiCollisionNode" node="0>0|2|1" />
+  <i3dMapping id="aiMarkerLeft" node="0>0|2|2" />
+  <i3dMapping id="aiMarkerRight" node="0>0|2|3" />
+  <i3dMapping id="skinnedMeshes" node="0>1" />
+  <i3dMapping id="rootBone" node="0>1|0" />
+  <i3dMapping id="hoses" node="0>1|1" />
+</i3dMappings>
+
+
+
+</vehicle>

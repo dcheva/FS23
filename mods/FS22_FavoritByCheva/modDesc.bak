@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="43">
+    <author>Cheva</author>
+    <version>1.7R1</version>
+    <iconFilename>store_favorit500.dds</iconFilename>
+    <title>
+        <en>Fendt Favorit 500 custom by Cheva</en>
+        <ru>Fendt Favorit 500 заказной от Чевы</ru>
+    </title>
+    <description>
+        <en><![CDATA[Fendt Favorit 500 custom by Cheva
+
+  v1.7R1:
+    - Adapted for FS19 v1.7
+
+  v1.0.1R:
+    - New engine - Iveco 150 Turbo (175HP, real model data used)
+    - Working ligfts powered - 3 times stronger. 
+    - Added rims and body colors.]]></en>
+        <ru><![CDATA[Fendt Favorit 500 заказной от Чевы
+
+  v1.7R1:
+    - Adapted for FS19 v1.7
+
+  v1.0.1R:
+    - Новый двигатель - Iveco 150 Turbo 
+        (150 лошадей, брал из реальных данных)
+    - Усилил свет в 3 раза, до 100 метров.
+    - Добавил раскраску дисков и кузова.]]></ru>
+    </description>
+    <storeItems>
+        <storeItem rootNode="vehicle" xmlFilename="favorit500.xml"/>
+    </storeItems>
+    <brands><brand name="CHEVA" title="Cheva" image="brand_cheva.dds" /></brands>
+</modDesc>

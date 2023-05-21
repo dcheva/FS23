@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="60">
+    <author>Cheva</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Impress 185VC Pro by Cheva</en>
+    </title>
+    <description>
+        <en>Impress 185VC Pro by Cheva</en>
+    </description>
+    <iconFilename>icon.png</iconFilename>
+    <storeItems>
+        <storeItem xmlFilename="impress185VCPro.xml"/>
+    </storeItems>
+</modDesc>

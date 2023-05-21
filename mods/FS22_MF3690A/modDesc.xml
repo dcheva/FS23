@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="61">
+    <author>Cheva</author>
+    <version>1.0.2.0</version>
+    <title>
+        <en>MF 3690 A830 by Cheva</en>
+    </title>
+    <description>
+        <en>MF 3690 A830 by Cheva</en>
+    </description>
+    <iconFilename>icon.dds</iconFilename>
+    <storeItems>
+        <storeItem xmlFilename="series3690.xml"/>
+    </storeItems>
+	<multiplayer supported="true"/>
+</modDesc>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<wheel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../shared/xml/schema/wheel.xsd">
+    <brand>CONTINENTAL</brand>
+    <name>TractorMaster</name>
+    <default>
+        <physics radius="0.906" width="0.65" mass="0.359" tireType="mud" frictionScale="1.60" maxLongStiffness="10" maxLatStiffness="120" maxLatStiffnessLoad="2"/>
+        <tire filename="$data/shared/wheels/tires/continental/tractorMaster/R38_tractorMaster.i3d" nodeLeft="2|0" nodeRight="2|0" maxDeformation="0.085" sideDeformOffset="0.966" isCareWheel="false" tireTrackAtlasIndex="0"/>
+        <outerRim filename="$data/shared/wheels/rims/rim001.i3d" node="1|0" widthAndDiam="20 38" />
+        <innerRim filename="wheels/rims/newrims.i3d"  nodeLeft="4|0" nodeRight="4|1" scale="0.95 0.95 0.95" />
+    </default>
+    <configurations>
+        <configuration id="dual">
+            <innerRim filename="-"/>
+        </configuration>
+        <configuration id="rim3" >
+            <innerRim filename="$data/shared/wheels/rims/rim003.i3d" nodeLeft="1|0" nodeRight="1|1" widthAndDiam="20 39" />
+        </configuration>
+        <configuration id="weight3">
+            <additional filename="$data/shared/wheels/weights/weight003.i3d" nodeLeft="0|0" nodeRight="0|1" offset="0.05" scale="0.45 0.83 0.83" mass="0.6"/>
+        </configuration>
+    </configurations>
+</wheel>
