@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<guidanceSteering version="1">
+    <settings>
+        <showGuidanceLines>false</showGuidanceLines>
+        <showGuidanceLinesAsDots>false</showGuidanceLinesAsDots>
+        <guidanceTerrainAngleIsActive>true</guidanceTerrainAngleIsActive>
+        <lineOffset>0.250000</lineOffset>
+    </settings>
+</guidanceSteering>
