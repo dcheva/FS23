@@ -901,4 +901,203 @@
         <binding device="KB_MOUSE_DEFAULT" input="MOUSE_BUTTON_RIGHT AXIS_Y-" axisComponent="-" neutralInput="0" index="3"/>
         <binding device="KB_MOUSE_DEFAULT" input="MOUSE_BUTTON_RIGHT AXIS_Y+" axisComponent="+" neutralInput="0" index="3"/>
     </actionBinding>
+    <actionBinding action="AL_LOAD_PALLET">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_b" axisComponent="+" neutralInput="0" index="1"/>
+        <binding device="0_XINPUT_GAMEPAD" input="BUTTON_4" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="AL_TOGGLE_LOADINGTYPE">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_z" axisComponent="+" neutralInput="0" index="1"/>
+        <binding device="0_XINPUT_GAMEPAD" input="BUTTON_10" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="AL_TOGGLE_LOADINGTYPEBACK">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_z" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="AL_TOGGLE_TIPSIDE">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_u" axisComponent="+" neutralInput="0" index="1"/>
+        <binding device="0_XINPUT_GAMEPAD" input="BUTTON_13" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="AL_UNLOAD">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_i" axisComponent="+" neutralInput="0" index="1"/>
+        <binding device="0_XINPUT_GAMEPAD" input="BUTTON_15" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="AL_TOGGLE_MARKERS">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_u" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="AL_TOGGLE_AUTOMATIC_TENSIONBELTS">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rctrl KEY_j" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="AL_UNLOADAREA_MOVE_UPDOWN">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rctrl KEY_e" axisComponent="+" neutralInput="0" index="1"/>
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rctrl KEY_q" axisComponent="-" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="AL_UNLOADAREA_MOVE_LEFTRIGHT">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rctrl KEY_a" axisComponent="+" neutralInput="0" index="1"/>
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rctrl KEY_d" axisComponent="-" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="AL_UNLOADAREA_MOVE_FRONTBACK">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rctrl KEY_w" axisComponent="+" neutralInput="0" index="1"/>
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rctrl KEY_s" axisComponent="-" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="FOLLOW_INITIATE">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rctrl KEY_f" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="FOLLOW_DISTANCE">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rctrl KEY_w" axisComponent="-" neutralInput="0" index="1"/>
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rctrl KEY_s" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="FOLLOW_SIDE_OFFSET">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rctrl KEY_a" axisComponent="-" neutralInput="0" index="1"/>
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rctrl KEY_d" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="FOLLOW_MARKER_TOGGLE_OFFSET">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rshift KEY_rctrl KEY_x" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="FOLLOW_CHASER_CHOOSE">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rshift KEY_rctrl KEY_f" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="FOLLOW_CHASER_DISTANCE">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rshift KEY_rctrl KEY_w" axisComponent="-" neutralInput="0" index="1"/>
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rshift KEY_rctrl KEY_s" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="FOLLOW_CHASER_SIDE_OFFSET">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rshift KEY_rctrl KEY_a" axisComponent="-" neutralInput="0" index="1"/>
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rshift KEY_rctrl KEY_d" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="HPS_ACTION_SECONDRY">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_c" axisComponent="+" neutralInput="0" index="1"/>
+        <binding device="KB_MOUSE_DEFAULT" input="MOUSE_BUTTON_RIGHT" axisComponent="+" neutralInput="0" index="3"/>
+    </actionBinding>
+    <actionBinding action="HPS_TOGGLE_FREE_PLANT">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_comma" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="TP_AXIS_PRESSURE">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_pageup" axisComponent="+" neutralInput="0" index="1"/>
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_pagedown" axisComponent="-" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="TP_TOGGLE_PRESSURE">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_p" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="POWERTOOLSMENU">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_f12" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="POWERTOOLS_QUICKSAVE"/>
+    <actionBinding action="vcaSETTINGS">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_c" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaGLOBALS">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_lalt KEY_c" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaUP">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rshift KEY_up" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaDOWN">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rshift KEY_down" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaLEFT">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rshift KEY_left" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaRIGHT">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rshift KEY_right" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaSnapUP">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_up" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaSnapDOWN">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_down" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaSnapLEFT">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_left" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaSnapRIGHT">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_right" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaSNAP">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_w" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaSNAPLEFT">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_a" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaSNAPRIGHT">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_d" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaSNAPPREV">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_a" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaSNAPCONT">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_s" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaSNAPNEXT">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_d" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaSNAPRESET">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_w" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaSNAPDIST">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_lalt KEY_w" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaWORKAREA">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_lalt KEY_s" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaNO_ARB"/>
+    <actionBinding action="vcaINCHING">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_rshift" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaKEEPROT">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_insert" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaKEEPROT2">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_insert" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaKEEPSPEED">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_delete" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaKEEPSPEED2">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_delete" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaKSAXIS">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_equals" axisComponent="+" neutralInput="0" index="1"/>
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_minus" axisComponent="-" neutralInput="0" index="1"/>
+        <binding device="KB_MOUSE_DEFAULT" input="MOUSE_BUTTON_WHEEL_UP" axisComponent="+" neutralInput="0" index="3"/>
+        <binding device="KB_MOUSE_DEFAULT" input="MOUSE_BUTTON_WHEEL_DOWN" axisComponent="-" neutralInput="0" index="3"/>
+    </actionBinding>
+    <actionBinding action="vcaSWAPSPEED">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_4" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaHandbrake">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_semicolon" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaLimitSpeed">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_semicolon" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaAutoShift">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_leftbracket" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaDiffLockF">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_rightbracket" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaDiffLockM">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_quote" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaDiffLockB">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_backslash" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaHandRpm">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_equals" axisComponent="+" neutralInput="0" index="1"/>
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_minus" axisComponent="-" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaLowerF">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_v" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaLowerB">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_ralt KEY_v" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaActivateF">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_b" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaActivateB">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_ralt KEY_b" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="vcaGearSplit">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_KP_8" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
 </inputBinding>
