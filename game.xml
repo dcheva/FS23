@@ -13,7 +13,7 @@
             <previousHeight>720</previousHeight>
         </display>
         <scalability>
-            <performanceClass>Very High</performanceClass>
+            <performanceClass>High</performanceClass>
         </scalability>
         <renderer>D3D_12</renderer>
     </graphic>

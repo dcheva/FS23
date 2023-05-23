@@ -33,7 +33,7 @@
         <voiceInput>1.000000</voiceInput>
     </volume>
     <soundPlayer allowStreams="true"/>
-    <radioIsActive>true</radioIsActive>
+    <radioIsActive>false</radioIsActive>
     <radioVehicleOnly>false</radioVehicleOnly>
     <voice mode="2" inputSensitivity="1"/>
     <units>
@@ -52,8 +52,8 @@
     <activeSuspensionCamera>true</activeSuspensionCamera>
     <cameraCheckCollision>true</cameraCheckCollision>
     <useWorldCamera>true</useWorldCamera>
-    <ingameMapState>2</ingameMapState>
-    <ingameMapFilters>0</ingameMapFilters>
+    <ingameMapState>3</ingameMapState>
+    <ingameMapFilters>32668</ingameMapFilters>
     <directionChangeMode>2</directionChangeMode>
     <gearShiftMode>1</gearShiftMode>
     <hudSpeedGauge>2</hudSpeedGauge>
@@ -64,8 +64,8 @@
     <ingameMapSoilFilter>254</ingameMapSoilFilter>
     <ingameMapFruitFilter>GRASS</ingameMapFruitFilter>
     <useColorblindMode>false</useColorblindMode>
-    <maxNumMirrors>4</maxNumMirrors>
-    <lightsProfile>4</lightsProfile>
+    <maxNumMirrors>3</maxNumMirrors>
+    <lightsProfile>3</lightsProfile>
     <fovY>60.000000</fovY>
     <uiScale>1.000000</uiScale>
     <realBeaconLights>false</realBeaconLights>
