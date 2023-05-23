@@ -1100,4 +1100,32 @@
     <actionBinding action="vcaGearSplit">
         <binding device="KB_MOUSE_DEFAULT" input="KEY_KP_8" axisComponent="+" neutralInput="0" index="1"/>
     </actionBinding>
+    <actionBinding action="CP_DBG_CHANNEL_SELECT_PREVIOUS">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_1" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="CP_DBG_CHANNEL_SELECT_NEXT">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_3" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="CP_DBG_CHANNEL_TOGGLE_CURRENT">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_2" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="CP_DBG_CHANNEL_MENU_VISIBILITY">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_4" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="CP_OPEN_CLOSE_VEHICLE_SETTING_DISPLAY">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_delete" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="CP_START_STOP">
+        <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_h" axisComponent="+" neutralInput="0" index="1"/>
+    </actionBinding>
+    <actionBinding action="CP_CHANGE_STARTING_POINT"/>
+    <actionBinding action="CP_CLEAR_COURSE"/>
+    <actionBinding action="CP_CHANGE_COURSE_VISIBILITY"/>
+    <actionBinding action="CP_OPEN_VEHICLE_SETTINGS"/>
+    <actionBinding action="CP_OPEN_GLOBAL_SETTINGS"/>
+    <actionBinding action="CP_OPEN_COURSEGENERATOR_SETTINGS"/>
+    <actionBinding action="CP_OPEN_COURSEMANAGER"/>
+    <actionBinding action="CP_TOGGLE_MOUSE">
+        <binding device="KB_MOUSE_DEFAULT" input="MOUSE_BUTTON_RIGHT" axisComponent="+" neutralInput="0" index="3"/>
+    </actionBinding>
 </inputBinding>

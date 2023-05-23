@@ -8,12 +8,12 @@
             <brightness>1</brightness>
             <fullscreenMode>windowed_fullscreen</fullscreenMode>
             <vsync adaptive="true">true</vsync>
-            <userConfirmed>false</userConfirmed>
+            <userConfirmed>true</userConfirmed>
             <previousWidth>1280</previousWidth>
             <previousHeight>720</previousHeight>
         </display>
         <scalability>
-            <performanceClass>High</performanceClass>
+            <performanceClass>Very High</performanceClass>
         </scalability>
         <renderer>D3D_12</renderer>
     </graphic>
