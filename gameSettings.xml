@@ -24,7 +24,7 @@
     <player lastPlayerStyleMale="true"/>
     <mpLanguage>7</mpLanguage>
     <volume>
-        <music>0.450000</music>
+        <music>0.000000</music>
         <vehicle>0.600000</vehicle>
         <environment>1.000000</environment>
         <radio>0.600000</radio>
@@ -47,13 +47,13 @@
     <showHelpTrigger>true</showHelpTrigger>
     <showFieldInfo>true</showFieldInfo>
     <showHelpIcons>true</showHelpIcons>
-    <showHelpMenu>false</showHelpMenu>
+    <showHelpMenu>true</showHelpMenu>
     <resetCamera>false</resetCamera>
     <activeSuspensionCamera>true</activeSuspensionCamera>
     <cameraCheckCollision>true</cameraCheckCollision>
     <useWorldCamera>true</useWorldCamera>
     <ingameMapState>3</ingameMapState>
-    <ingameMapFilters>32668</ingameMapFilters>
+    <ingameMapFilters>412</ingameMapFilters>
     <directionChangeMode>2</directionChangeMode>
     <gearShiftMode>1</gearShiftMode>
     <hudSpeedGauge>2</hudSpeedGauge>
