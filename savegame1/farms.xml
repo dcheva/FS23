@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <farms>
-    <farm farmId="1" name="Covans" color="1" loan="1000000.000000" money="1000202.916992">
+    <farm farmId="1" name="Covans" color="1" loan="2500000.000000" money="1000202.916992">
         <players>
             <player uniqueUserId="player" farmManager="true" lastNickname="Dee" timeLastConnected="2023/05/22 01:56" buyVehicle="true" sellVehicle="true" buyPlaceable="true" sellPlaceable="true" manageContracts="true" tradeAnimals="true" createFields="true" landscaping="true" hireAssistant="true" resetVehicle="true" manageProductions="true" cutTrees="true" manageRights="true" transferMoney="true" updateFarm="true" manageContracting="true"/>
         </players>
