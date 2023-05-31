@@ -1,15 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <sales>
-    <item timeLeft="30" isGenerated="true" xmlFilename="C:/Users/Dmytro/Documents/My Games/FarmingSimulator2022/mods/FS22_MultiFruitHarvesterPack/vehicles/earthFruits/grimme/rexor6300.xml" age="24" price="221717" damage="0.435660" wear="0.704727" operatingTime="52897.679688">
+    <item timeLeft="5" isGenerated="true" xmlFilename="C:/Users/Dmytro/Documents/My Games/FarmingSimulator2022/mods/FS22_MultiFruitHarvesterPack/vehicles/earthFruits/grimme/rexor6300.xml" age="24" price="221717" damage="0.435660" wear="0.704727" operatingTime="52897.679688">
         <boughtConfiguration name="wheel" id="TRELLEBORG_DEFAULT"/>
     </item>
-    <item timeLeft="21" isGenerated="true" xmlFilename="C:/Users/Dmytro/Documents/My Games/FarmingSimulator2022/mods/FS22_TLX3500_Series/tlx3500_td.xml" age="6" price="16598" damage="0.386793" wear="0.799970" operatingTime="18001.302734">
-        <boughtConfiguration name="designMaterial2" id="29"/>
-    </item>
-    <item timeLeft="22" isGenerated="true" xmlFilename="data/vehicles/kemper/n3003/n3003.xml" age="18" price="8903" damage="0.394697" wear="0.893610" operatingTime="77347.882813">
-        <boughtConfiguration name="inputAttacherJoint" id="1"/>
-    </item>
-    <item timeLeft="38" isGenerated="true" xmlFilename="data/vehicles/newHolland/t6/t6.xml" age="8" price="63091" damage="0.521583" wear="0.418578" operatingTime="23785.634766">
+    <item timeLeft="13" isGenerated="true" xmlFilename="data/vehicles/newHolland/t6/t6.xml" age="8" price="63091" damage="0.521583" wear="0.418578" operatingTime="23785.634766">
         <boughtConfiguration name="motor" id="2"/>
+    </item>
+    <item timeLeft="6" isGenerated="true" xmlFilename="D:/Games/Farming Simulator 22/pdlc/goeweilPack/vehicles/goeweil/g1F125Kombi/g1F125Kombi.xml" age="13" price="44230" damage="0.554348" wear="0.986859" operatingTime="59888.582031">
+        <boughtConfiguration name="wrappingAnimation" id="1"/>
+        <boughtConfiguration name="wrappingAnimation" id="2"/>
+        <boughtConfiguration name="folding" id="1"/>
+        <boughtConfiguration name="folding" id="2"/>
+        <boughtConfiguration name="usedComponents" id="1"/>
+        <boughtConfiguration name="usedComponents" id="2"/>
     </item>
 </sales>

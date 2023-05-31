@@ -1,2 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<treePlant/>
+<treePlant>
+    <tree treeType="PINE" position="-2.4671 102.4848 -10.8189" rotation="0.0000 0.0000 0.0000" growthState="1.000000" growthStateI="7" isGrowing="false" splitShapeFileId="1"/>
+</treePlant>
