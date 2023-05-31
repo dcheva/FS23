@@ -1,17 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <sales>
-    <item timeLeft="3" isGenerated="true" xmlFilename="C:/Users/Dmytro/Documents/My Games/FarmingSimulator2022/mods/FS22_MultiFruitHarvesterPack/vehicles/earthFruits/grimme/rexor6300.xml" age="24" price="221717" damage="0.435660" wear="0.704727" operatingTime="52897.679688">
+    <item timeLeft="1" isGenerated="true" xmlFilename="C:/Users/Dmytro/Documents/My Games/FarmingSimulator2022/mods/FS22_MultiFruitHarvesterPack/vehicles/earthFruits/grimme/rexor6300.xml" age="24" price="221717" damage="0.435660" wear="0.704727" operatingTime="52897.679688">
         <boughtConfiguration name="wheel" id="TRELLEBORG_DEFAULT"/>
     </item>
-    <item timeLeft="11" isGenerated="true" xmlFilename="data/vehicles/newHolland/t6/t6.xml" age="8" price="63091" damage="0.521583" wear="0.418578" operatingTime="23785.634766">
+    <item timeLeft="9" isGenerated="true" xmlFilename="data/vehicles/newHolland/t6/t6.xml" age="8" price="63091" damage="0.521583" wear="0.418578" operatingTime="23785.634766">
         <boughtConfiguration name="motor" id="2"/>
     </item>
-    <item timeLeft="4" isGenerated="true" xmlFilename="D:/Games/Farming Simulator 22/pdlc/goeweilPack/vehicles/goeweil/g1F125Kombi/g1F125Kombi.xml" age="13" price="44230" damage="0.554348" wear="0.986859" operatingTime="59888.582031">
-        <boughtConfiguration name="usedComponents" id="1"/>
-        <boughtConfiguration name="usedComponents" id="2"/>
+    <item timeLeft="2" isGenerated="true" xmlFilename="D:/Games/Farming Simulator 22/pdlc/goeweilPack/vehicles/goeweil/g1F125Kombi/g1F125Kombi.xml" age="13" price="44230" damage="0.554348" wear="0.986859" operatingTime="59888.582031">
         <boughtConfiguration name="folding" id="1"/>
         <boughtConfiguration name="folding" id="2"/>
         <boughtConfiguration name="wrappingAnimation" id="1"/>
         <boughtConfiguration name="wrappingAnimation" id="2"/>
+        <boughtConfiguration name="usedComponents" id="1"/>
+        <boughtConfiguration name="usedComponents" id="2"/>
     </item>
+    <item timeLeft="37" isGenerated="true" xmlFilename="data/vehicles/johnDeere/headerHD45X/headerHD45X.xml" age="29" price="35529" damage="0.258777" wear="0.948538" operatingTime="73766.812500"/>
+    <item timeLeft="22" isGenerated="true" xmlFilename="data/vehicles/newHolland/l218/l218.xml" age="11" price="21045" damage="0.431062" wear="0.384612" operatingTime="22516.716797"/>
 </sales>
