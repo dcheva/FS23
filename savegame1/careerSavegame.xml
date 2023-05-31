@@ -51,10 +51,10 @@
         <foundHelpIcons>00000000000000000000</foundHelpIcons>
     </map>
     <statistics>
-        <money>454169</money>
+        <money>279761</money>
         <playTime>0.000000</playTime>
     </statistics>
-    <slotSystem slotUsage="1011"/>
+    <slotSystem slotUsage="1014"/>
     <mapsSplitShapeFileIds count="1">
         <id id="0"/>
     </mapsSplitShapeFileIds>
