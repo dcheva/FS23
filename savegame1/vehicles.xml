@@ -586,9 +586,9 @@
             <action name="turnOn" identifier="C:/Users/Dmytro/Documents/My Games/FarmingSimulator2022/mods/FS22_Autoload_Belt/sl8022.xml" lastDirection="-1"/>
         </actionController>
     </vehicle>
-    <vehicle modName="FS22_casemagnum7200Series" filename="$moddir$FS22_casemagnum7200Series/magnum7200Series.xml" id="12" isAbsolute="true" age="1.000000" price="105500.000000" farmId="1" propertyState="1" operatingTime="20031.601563" selectedObjectIndex="2" subSelectedObjectIndex="1">
-        <component index="1" position="49.204662322998 100.02825164795 56.643569946289" rotation="-178.59529464387 -22.443974291905 -179.95123745828"/>
-        <component index="2" position="48.560531616211 100.69006347656 55.085517883301" rotation="-178.58932505854 -22.443475688096 -179.96801240288"/>
+    <vehicle modName="FS22_casemagnum7200Series" filename="$moddir$FS22_casemagnum7200Series/magnum7200Series.xml" id="12" isAbsolute="true" age="1.000000" price="105500.000000" farmId="1" propertyState="1" operatingTime="20348.898438" selectedObjectIndex="2" subSelectedObjectIndex="1">
+        <component index="1" position="49.20520401001 100.02825927734 56.645820617676" rotation="-178.59681094587 -22.396142477148 -179.94989874121"/>
+        <component index="2" position="48.562362670898 100.69008636475 55.087238311768" rotation="-178.59081403978 -22.395573863899 -179.9665507424"/>
         <configuration name="frontloader" id="1"/>
         <configuration name="design4" id="1"/>
         <configuration name="fillUnit" id="1"/>
@@ -621,13 +621,13 @@
             <dirtNode amount="1.000000" snowScale="0.000000"/>
             <dirtNode amount="1.000000" snowScale="0.000000"/>
         </washable>
-        <wearable damage="0.287056">
+        <wearable damage="0.292352">
             <wearNode amount="0.412991"/>
         </wearable>
         <licensePlates variation="2" characters="DEE.COVAN" colorIndex="31" placementIndex="1"/>
         <wheels lastWheelConfiguration="54"/>
         <enterable activeCameraIndex="1" isTabbable="true">
-            <camera rotation="-10.439770398346 1496.6439797656 0" translation="0 0 23.299974835037" zoom="23.300011" fovY="0.950021"/>
+            <camera rotation="-13.573120672884 1532.7871266734 0" translation="0 0 23.299974835037" zoom="23.300011" fovY="0.950021"/>
             <camera rotation="-18.000000500896 180.00000500896 0" translation="-0.059999998658895 0.67163699865341 -0.068090103566647" zoom="0.677751" fovY="1.047198"/>
         </enterable>
         <fillUnit>
@@ -2249,16 +2249,16 @@
             <body r="0.200000" g="0.140000" b="0.080000" curIndex="0.100000" prevIndex="0.100000"/>
         </realDirtColor>
     </vehicle>
-    <vehicle filename="data/vehicles/elho/duett7300/duett7300.xml" id="37" isAbsolute="true" age="0.000000" price="52500.000000" farmId="1" propertyState="1" operatingTime="2073.880859">
-        <component index="1" position="47.689807891846 99.996910095215 52.976959228516" rotation="-1.3285292098452 22.443805244723 0.045529447367817"/>
-        <component index="2" position="48.447109222412 102.26374053955 52.188789367676" rotation="22.474015171422 -0.68165922910877 95.173085329008"/>
-        <component index="3" position="46.593952178955 102.26222229004 52.954177856445" rotation="-22.269826666185 -3.1342476650626 -94.072414004639"/>
+    <vehicle filename="data/vehicles/elho/duett7300/duett7300.xml" id="37" isAbsolute="true" age="0.000000" price="52500.000000" farmId="1" propertyState="1" operatingTime="2391.210938">
+        <component index="1" position="47.693424224854 99.996971130371 52.977939605713" rotation="-1.3269327598484 22.39574974127 0.046919474240247"/>
+        <component index="2" position="48.451347351074 102.26383972168 52.190456390381" rotation="22.42606041326 -0.67883233120517 95.174417215896"/>
+        <component index="3" position="46.597560882568 102.26229095459 52.954296112061" rotation="-22.22199314388 -3.1294144524512 -94.07446306139"/>
         <configuration name="folding" id="1"/>
         <boughtConfiguration name="folding" id="1"/>
         <washable>
             <dirtNode amount="0.380726"/>
         </washable>
-        <wearable damage="0.024899">
+        <wearable damage="0.024976">
             <wearNode amount="0.087729"/>
         </wearable>
         <wheels lastWheelConfiguration="1"/>
@@ -2269,10 +2269,10 @@
             <body r="0.035100" g="0.055052" b="0.006045" curIndex="1.000000" prevIndex="0.100000"/>
         </realDirtColor>
     </vehicle>
-    <vehicle modName="pdlc_vermeerPack" filename="$pdlcdir$vermeerPack/vehicles/vermeer/r2800/r2800.xml" id="38" isAbsolute="true" age="0.000000" price="33000.000000" farmId="1" propertyState="1" operatingTime="2060.070557">
-        <component index="1" position="51.63903427124 100.31308746338 62.50110244751" rotation="-176.64306265454 -22.636227041568 -179.98668614007"/>
-        <component index="2" position="50.823482513428 101.33410644531 62.832412719727" rotation="-179.59960565943 33.866051829593 179.84857971506"/>
-        <component index="3" position="52.446102142334 101.3430480957 62.154773712158" rotation="179.23464133132 -79.132891497232 -179.04942026141"/>
+    <vehicle modName="pdlc_vermeerPack" filename="$pdlcdir$vermeerPack/vehicles/vermeer/r2800/r2800.xml" id="38" isAbsolute="true" age="0.000000" price="33000.000000" farmId="1" propertyState="1" operatingTime="2377.367188">
+        <component index="1" position="51.65404510498 100.31307983398 62.497272491455" rotation="-176.64289873 -22.876914370183 -179.98634463062"/>
+        <component index="2" position="50.839889526367 101.33409118652 62.832008361816" rotation="-179.59841720652 33.625366208526 179.8492490736"/>
+        <component index="3" position="52.459632873535 101.3430480957 62.147556304932" rotation="179.21361800906 -79.37361468434 -179.02918924109"/>
         <configuration name="wheel" id="BKT_DEFAULT"/>
         <configuration name="folding" id="1"/>
         <boughtConfiguration name="wheel" id="BKT_DEFAULT"/>
@@ -2284,7 +2284,7 @@
             <dirtNode amount="0.615314"/>
             <dirtNode amount="0.615318"/>
         </washable>
-        <wearable damage="0.024726">
+        <wearable damage="0.024803">
             <wearNode amount="0.096603"/>
         </wearable>
         <cylindered>

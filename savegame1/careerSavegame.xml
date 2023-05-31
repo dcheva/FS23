@@ -51,10 +51,10 @@
         <foundHelpIcons>00000000000000000000</foundHelpIcons>
     </map>
     <statistics>
-        <money>431502</money>
+        <money>230880</money>
         <playTime>0.000000</playTime>
     </statistics>
-    <slotSystem slotUsage="988"/>
+    <slotSystem slotUsage="994"/>
     <mapsSplitShapeFileIds count="1">
         <id id="0"/>
     </mapsSplitShapeFileIds>
@@ -76,7 +76,7 @@
     <mod modName="FS22_Bavarian_Farm_Pack" title="Bavarian Farm Pack" version="1.0.0.0" required="false" fileHash="1b853beba024250cefc4e8bd3ebc1f14"/>
     <mod modName="FS22_noCollisionCamera" title="No Collision Camera" version="17.0.3" required="false" fileHash="80b99e4a5cb3e19809fb427280b694d9"/>
     <mod modName="FS22_Z437" title="Krukowiak Z437" version="1.0.1.1" required="false" fileHash="bb6799eee9664a6cbe5bfebb2ac499aa"/>
-    <mod modName="FS22_Pack_Neuero_Silo_Multifruit" title="Silo Neuero Multifruit Pack" version="1.0.0.1" required="false" fileHash="d28c0bf1cca0e18be1589d54368582a3"/>
+    <mod modName="FS22_Olives" title="Olives + Olive Picker" version="1.0.1.0" required="false" fileHash="cb15615d78f614fc52b2942d52392545"/>
     <mod modName="FS22_SilageSilo" title="Silage Silo Pack" version="1.1.0.0" required="false" fileHash="db8495ce060c182ddd58cfa15b8f13b0"/>
     <mod modName="FS22_EmptyPalletsProd" title="Empty Pallets Production" version="1.0.0.0" required="false" fileHash="925e89454ffed0c800d9285f79d886bb"/>
     <mod modName="FS22_grape_olive" title="Cheap Olive And Grape" version="1.0.0.0" required="false" fileHash="7683d6359d4bce043ccc0006d37c7f75"/>
@@ -90,7 +90,7 @@
     <mod modName="FS22_Lizard_Dzik" title="Lizard Dzik" version="1.0.0.0" required="false" fileHash="121247ffd097db410ea48dfe52d2d626"/>
     <mod modName="FS22_Rapid_A_800S_BD" title="Vaederstad Rapid 800s BD" version="1.0.0.0" required="false" fileHash="14fd6879cfec86a7b736ed9b056b7aa4"/>
     <mod modName="FS22_Claas_Krone_Baler_Pack_With_Lizard_R90" title="Pack Of Balers With Windrower" version="4.0.0.0" required="false" fileHash="909c6e7a26bf909b479d5642c02ed082"/>
-    <mod modName="FS22_containerAutoload" title="Autoload Pallet Storage" version="1.0.0.0" required="false" fileHash="6a18c332fbf3fff6ec2ea5d92538f8ac"/>
+    <mod modName="pdlc_goeweilPack" title="GÖWEIL Pack" version="1.0.0.0" required="false" fileHash="aac793676831ca8eed12c4d165b72128"/>
     <mod modName="FS22_UniversalLiquidsTransport" title="Universal Liquid Transport" version="1.1.0.0" required="false" fileHash="ed51a7229d61e1e7870d40f3d268041b"/>
     <mod modName="FS22_Poulailler" title="Chicken Coop" version="1.0.0.0" required="false" fileHash="42ed04d7eb4535670152ea37313481cf"/>
     <mod modName="FS22_EnhancedAnimalSystem" title="Enhanced Animal System" version="2.1.0.0" required="false" fileHash="7d6841b966d247afed94bbd299c902ec"/>
@@ -124,7 +124,7 @@
     <mod modName="FS22_realDirtColor" title="Real Dirt Color" version="1.2.7.0" required="false" fileHash="6c4ed813b20b2596be0df32d300c6ace"/>
     <mod modName="FS22_unitrac122LDrivePlatformAutoload" title="Lindner Unitrac Platform Autoload" version="1.0.3.0" required="false" fileHash="1887e558531bf1c5b7b72e4fb285d86a"/>
     <mod modName="FS22_realDirtFix" title="Real Dirt Fix" version="1.0.0.0" required="false" fileHash="2dd8158aafdfde86fe2d552c2d46f2df"/>
-    <mod modName="FS22_RobertForksPack" title="Robert Bale Fork Pack" version="1.0.0.0" required="false" fileHash="3175d65ae98fa2646a1fd2d924c897c1"/>
+    <mod modName="FS22_Kubota_Equipment" title="Kubota Equipment Pack" version="1.0.0.1" required="false" fileHash="719d96fc7abcd1bb318911d20876d4b4"/>
     <mod modName="FS22_WaterHydrant" title="Water Hydrant" version="1.0.0.0" required="false" fileHash="480aad82a7abef3da31f48a33312dcad"/>
     <mod modName="FS22_Profihopper" title="Amazone Profihopper" version="1.0.0.0" required="false" fileHash="e1d9d0c0ba910379353900f34ffb5025"/>
     <mod modName="FS22_LizardLogBunker" title="Lizard Log Bunker" version="1.0.0.0" required="false" fileHash="9cc6cb400e5628836d64e39d9d8fa4fe"/>
@@ -135,45 +135,45 @@
     <mod modName="FS22_placeAnywhere" title="PlaceAnywhere" version="1.0.0.0" required="false" fileHash="ac06aa815eab6b06958949e40de8cd9e"/>
     <mod modName="FS22_real_clock" title="RealClock Mod" version="1.0.0.0" required="false" fileHash="53a5da9824176850bddd2847ec56e97e"/>
     <mod modName="FS22_Pallet_shelf_pack" title="Pallets Shelf Pack" version="1.0.0.0" required="false" fileHash="50d1f0a58d2a75acacbc82ff8a46a6af"/>
-    <mod modName="FS22_manTGS_26480TankPack" title="MAN TGS Tank Pack" version="1.1.0.0" required="false" fileHash="ac207478b23fe0a5edcd0f3ace268fc7"/>
+    <mod modName="FS22_LumberJack" title="Дровосек" version="1.4.0.0" required="false" fileHash="77453a0a7016dbbeb533a7e81b3fffd4"/>
     <mod modName="FS22_stoneCrushing_limeProduction" title="Stone Crushing Lime Production" version="1.1.0.0" required="false" fileHash="3a17e82918fff7314ceb672e2dd336ac"/>
     <mod modName="FS22_wheelloader3Pointadapter" title="Hi-Vis 3-Point Adapter" version="1.0.1.0" required="false" fileHash="df105a3f49192d8a663bf6ae1132acb2"/>
     <mod modName="FS22_kroneRX_MX_Pack" title="Krone MX/RX Pack" version="1.0.0.0" required="false" fileHash="e9da2371f4132867e0b06ae74d75001d"/>
     <mod modName="pdlc_claasSaddleTracPack" title="CLAAS XERION SADDLE TRAC Pack" version="1.1.0.0" required="false" fileHash="49bfa385ca90594408a7f75db8783578"/>
-    <mod modName="FS22_precisionFarming" title="Precision Farming DLC" version="1.0.2.1" required="false" fileHash="5359be9ae727974edde9f964b4739661"/>
-    <mod modName="FS22_Olives" title="Olives + Olive Picker" version="1.0.1.0" required="false" fileHash="cb15615d78f614fc52b2942d52392545"/>
+    <mod modName="FS22_Pack_Neuero_Silo_Multifruit" title="Silo Neuero Multifruit Pack" version="1.0.0.1" required="false" fileHash="d28c0bf1cca0e18be1589d54368582a3"/>
+    <mod modName="FS22_noMansLand" title="Ничейная Земля" version="1.3.0.0" required="true" fileHash="4566f431b1240cca03b0b1af3a1d3929"/>
     <mod modName="FS22_GrimmePack" title="Grimme Pack" version="1.0.0.1" required="false" fileHash="55bb950650ac774996c788162b772958"/>
     <mod modName="FS22_Lizard_Bale_Pallet_Trailer_crossplay" title="Lizard Bale And Pallet Trailer" version="1.0.0.0" required="false" fileHash="c48a9825b76245d8d76e9ad124a729db"/>
-    <mod modName="FS22_mudSystem" title="Mud System" version="1.0.0.0" required="false" fileHash="416d76449b3be4f1b464da2bf48dafeb"/>
     <mod modName="FS22_ObjectStorage" title="Хранилище Объектов" version="1.2.0.0" required="false" fileHash="503f75754bafa247e7cf3bd7711aa14c"/>
+    <mod modName="FS22_mudSystem" title="Mud System" version="1.0.0.0" required="false" fileHash="416d76449b3be4f1b464da2bf48dafeb"/>
     <mod modName="FS22_OldWinery" title="Old Winery" version="1.0.0.0" required="false" fileHash="c058fd8fdde916382d5d862e191a8204"/>
-    <mod modName="FS22_lindnerUnitracPack" title="Lindner Unitrac Pack" version="1.0.0.0" required="false" fileHash="a5c701b237edecf0cd10d1b4ca934199"/>
-    <mod modName="pdlc_kubotaPack" title="Kubota Pack" version="1.1.0.0" required="false" fileHash="824b01df5f17a1693811eeea47376932"/>
     <mod modName="FS22_moreHoneyPalletPlaceOptions" title="More Honey Pallet Place Options" version="1.1.0.0" required="false" fileHash="d2c1261aa7fc9c96a0dd53b47d9e90d0"/>
+    <mod modName="pdlc_kubotaPack" title="Kubota Pack" version="1.1.0.0" required="false" fileHash="824b01df5f17a1693811eeea47376932"/>
+    <mod modName="FS22_manTGS_26480TankPack" title="MAN TGS Tank Pack" version="1.1.0.0" required="false" fileHash="ac207478b23fe0a5edcd0f3ace268fc7"/>
     <mod modName="FS22_PalettAndBarrelProduction" title="Производство Пустых Поддонов И Бочек" version="1.0.0.0" required="false" fileHash="778b55eb8e2ce7f84bf1dc8ed150de79"/>
-    <mod modName="FS22_LumberJack" title="Дровосек" version="1.4.0.0" required="false" fileHash="77453a0a7016dbbeb533a7e81b3fffd4"/>
-    <mod modName="FS22_caseIH1455XL" title="Case IH 1455 XL" version="1.0.0.0" required="false" fileHash="d00d288b21a23b7e4627934c1d727201"/>
     <mod modName="FS22_lizardbunkersilo" title="Bunker Silo" version="2.0.0.0" required="false" fileHash="31031c9935f7afcc9a32a0d7d26bcc27"/>
+    <mod modName="FS22_caseIH1455XL" title="Case IH 1455 XL" version="1.0.0.0" required="false" fileHash="d00d288b21a23b7e4627934c1d727201"/>
     <mod modName="FS22_LizardBulwa2" title="Lizard Bulwa 2" version="1.0.0.0" required="false" fileHash="670858f8697cd415ca0b7681a293ef0f"/>
+    <mod modName="FS22_lindnerUnitracPack" title="Lindner Unitrac Pack" version="1.0.0.0" required="false" fileHash="a5c701b237edecf0cd10d1b4ca934199"/>
     <mod modName="FS22_morepalletsfix" title="More Pallets Fix" version="1.0.0.0" required="false" fileHash="2700fc6cd89fd335da9b397735403da0"/>
-    <mod modName="FS22_noMansLand" title="Ничейная Земля" version="1.3.0.0" required="true" fileHash="4566f431b1240cca03b0b1af3a1d3929"/>
+    <mod modName="FS22_RobertForksPack" title="Robert Bale Fork Pack" version="1.0.0.0" required="false" fileHash="3175d65ae98fa2646a1fd2d924c897c1"/>
     <mod modName="FS22_R3_HarvestProfit" title="Harvest Profit" version="1.0.0.0" required="false" fileHash="23b3d06aacd5b2b14b5db0f4cf44d9a5"/>
     <mod modName="FS22_Hardi_Pack" title="Hardi Sprayer Pack" version="1.0.0.0" required="false" fileHash="820d3b36cd00419ae4bd97a163d97579"/>
-    <mod modName="FS22_Kubota_Equipment" title="Kubota Equipment Pack" version="1.0.0.1" required="false" fileHash="719d96fc7abcd1bb318911d20876d4b4"/>
     <mod modName="FS22_FERRANDxDHUGUES_pack" title="FERRAND / DHUGUES Vineyard Pack" version="1.0.0.0" required="false" fileHash="2979be8e58d941e46d2775ba929793e1"/>
-    <mod modName="FS22_SawmillWithBarkmulch" title="Лесопилка" version="1.0.0.1" required="false" fileHash="f2290bacc79a792e6dea1d283d8ec1e5"/>
-    <mod modName="pdlc_goeweilPack" title="GÖWEIL Pack" version="1.0.0.0" required="false" fileHash="aac793676831ca8eed12c4d165b72128"/>
-    <mod modName="FS22_EasyForks" title="Albutt - Magsi - Paladin - Stoll EasyForks" version="1.0.0.1" required="false" fileHash="29380de554573b2b90f79c4520e94b45"/>
+    <mod modName="pdlc_forestryPack" title="Platinum Expansion" version="1.3.0.0" required="false" fileHash="329e90792fd90c2ca716253d202aa7a4"/>
+    <mod modName="FS22_precisionFarming" title="Precision Farming DLC" version="1.0.2.1" required="false" fileHash="5359be9ae727974edde9f964b4739661"/>
+    <mod modName="FS22_containerAutoload" title="Autoload Pallet Storage" version="1.0.0.0" required="false" fileHash="6a18c332fbf3fff6ec2ea5d92538f8ac"/>
     <mod modName="FS22_LiftablePallets" title="Liftable Pallets And Big Bags" version="1.1.2.0" required="false" fileHash="fb8b004f5189798f04bde482d8bf2289"/>
+    <mod modName="FS22_Caffini_DriftStopperEvo" title="Caffini Drift Stopper Evo" version="1.0.0.0" required="false" fileHash="04835e87080d77721f03c45f6ddfd695"/>
     <mod modName="FS22_Enhanced_Sheep_Pasture" title="Enhanced Sheep And Goat Pasture" version="1.0.0.0" required="false" fileHash="182024994f59ae1236651daacc8f3589"/>
     <mod modName="FS22_casemagnum7200Series" title="Case IH 7200 Series" version="1.1.0.0" required="false" fileHash="8e69ba471fe4e1660082759eb54e1c1a"/>
     <mod modName="FS22_Workshop" title="Small Stational Workshop Trailer" version="1.0.0.0" required="false" fileHash="77de87210ed9f786046a5e11029852db"/>
-    <mod modName="pdlc_forestryPack" title="Platinum Expansion" version="1.3.0.0" required="false" fileHash="329e90792fd90c2ca716253d202aa7a4"/>
+    <mod modName="FS22_EasyForks" title="Albutt - Magsi - Paladin - Stoll EasyForks" version="1.0.0.1" required="false" fileHash="29380de554573b2b90f79c4520e94b45"/>
     <mod modName="FS22_strautmannSEK802" title="Strautmann SEK 802" version="1.0.0.1" required="false" fileHash="eeee8762ceacfa2b4b81eb5d8aba2d63"/>
     <mod modName="pdlc_vermeerPack" title="Vermeer Pack" version="1.0.1.0" required="false" fileHash="536fa70e7a69d1b5c979743bc848cf68"/>
-    <mod modName="FS22_flatBedTrailerCombo" title="30&apos; Flatbed Trailer" version="1.0.0.0" required="false" fileHash="a43547bd4fe9db051102b91d0eb33642"/>
+    <mod modName="FS22_SawmillWithBarkmulch" title="Лесопилка" version="1.0.0.1" required="false" fileHash="f2290bacc79a792e6dea1d283d8ec1e5"/>
     <mod modName="FS22_GL860_MultiPlanter" title="GL860 Multi Planter" version="1.0.1.1" required="false" fileHash="3e204409e988ffabaac738d719590427"/>
     <mod modName="FS22_Liftable_Bales_Pack" title="Liftable Bales Pack" version="1.1.0.0" required="false" fileHash="1b037258940f02b8061ce20ea4d4f398"/>
-    <mod modName="FS22_Caffini_DriftStopperEvo" title="Caffini Drift Stopper Evo" version="1.0.0.0" required="false" fileHash="04835e87080d77721f03c45f6ddfd695"/>
+    <mod modName="FS22_flatBedTrailerCombo" title="30&apos; Flatbed Trailer" version="1.0.0.0" required="false" fileHash="a43547bd4fe9db051102b91d0eb33642"/>
     <mod modName="FS22_Refillable_Tanks" title="Refillable Tanks" version="1.1.0.0" required="false" fileHash="87af19430d7becb04f46c16ea3147582"/>
 </careerSavegame>
