@@ -8,8 +8,8 @@
             <handTool filename="data/firstPerson/chainsaws/mcCulloch/mcCullochCS410.xml"/>
         </handTools>
         <statistics>
-            <traveledDistance>144.395020</traveledDistance>
-            <fuelUsage>615.090393</fuelUsage>
+            <traveledDistance>145.488068</traveledDistance>
+            <fuelUsage>624.091919</fuelUsage>
             <seedUsage>2371.972900</seedUsage>
             <sprayUsage>24334.050781</sprayUsage>
             <workedHectares>39.546265</workedHectares>
@@ -37,7 +37,7 @@
             <transportMissionCount>0</transportMissionCount>
             <revenue>0.000000</revenue>
             <expenses>113.222603</expenses>
-            <playTime>-998851.062500</playTime>
+            <playTime>-998832.500000</playTime>
             <plantedTreeCount>0</plantedTreeCount>
             <cutTreeCount>100</cutTreeCount>
             <woodTonsSold>0.000000</woodTonsSold>
@@ -48,7 +48,7 @@
             <horseJumpCount>0</horseJumpCount>
             <soldCottonBales>0</soldCottonBales>
             <wrappedBales>0</wrappedBales>
-            <tractorDistance>144.324875</tractorDistance>
+            <tractorDistance>145.417923</tractorDistance>
             <carDistance>0.070145</carDistance>
             <truckDistance>0.000000</truckDistance>
             <horseDistance>0.000000</horseDistance>
