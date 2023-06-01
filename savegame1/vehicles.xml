@@ -589,9 +589,9 @@
             <action name="turnOn" identifier="C:/Users/Dmytro/Documents/My Games/FarmingSimulator2022/mods/FS22_Autoload_Belt/sl8022.xml" lastDirection="-1"/>
         </actionController>
     </vehicle>
-    <vehicle modName="FS22_casemagnum7200Series" filename="$moddir$FS22_casemagnum7200Series/magnum7200Series.xml" id="12" isAbsolute="true" age="1.000000" price="105500.000000" farmId="1" propertyState="1" operatingTime="36702.011719" selectedObjectIndex="3" subSelectedObjectIndex="1">
-        <component index="1" position="182.41040039063 101.26320648193 36.573894500732" rotation="-24.312893341286 -88.726199545027 28.383255784696"/>
-        <component index="2" position="180.69593811035 101.84659576416 36.601444244385" rotation="-14.115338948187 -88.805170192211 18.183669410319"/>
+    <vehicle modName="FS22_casemagnum7200Series" filename="$moddir$FS22_casemagnum7200Series/magnum7200Series.xml" id="12" isAbsolute="true" age="1.000000" price="105500.000000" farmId="1" propertyState="1" operatingTime="36819.593750" selectedObjectIndex="3" subSelectedObjectIndex="1">
+        <component index="1" position="159.99678039551 100.02340698242 41.458023071289" rotation="0.6475931270148 -78.417429181673 0.0042989633354067"/>
+        <component index="2" position="158.35403442383 100.70785522461 41.794704437256" rotation="0.64633215670014 -78.417408691106 0.0060332981929427"/>
         <configuration name="design2" id="1"/>
         <configuration name="design3" id="1"/>
         <configuration name="design4" id="1"/>
@@ -624,18 +624,18 @@
             <dirtNode amount="1.000000" snowScale="0.000000"/>
             <dirtNode amount="1.000000" snowScale="0.000000"/>
         </washable>
-        <wearable damage="0.596651">
-            <wearNode amount="0.616553"/>
+        <wearable damage="0.599016">
+            <wearNode amount="0.618017"/>
         </wearable>
         <licensePlates variation="2" characters="DEE.COVAN" colorIndex="31" placementIndex="1"/>
         <wheels lastWheelConfiguration="54"/>
         <enterable activeCameraIndex="1" isTabbable="true">
-            <camera rotation="-35.642147409939 720.58011793141 0" translation="0 0 20.299979068946" zoom="20.300011" fovY="0.950021"/>
+            <camera rotation="-32.844797385713 735.6869529269 0" translation="0 0 20.299979068946" zoom="20.300011" fovY="0.950021"/>
             <camera rotation="-18.000000500896 180.00000500896 0" translation="-0.059999998658895 0.67163699865341 -0.068090103566647" zoom="0.677751" fovY="1.047198"/>
         </enterable>
         <fillUnit>
-            <unit index="1" fillType="DIESEL" fillLevel="352.979309"/>
-            <unit index="2" fillType="AIR" fillLevel="2061.128174"/>
+            <unit index="1" fillType="DIESEL" fillLevel="351.978943"/>
+            <unit index="2" fillType="AIR" fillLevel="1936.671021"/>
         </fillUnit>
         <drivable cruiseControl="43" cruiseControlReverse="22"/>
         <aiFieldWorker lastTurnDirection="false"/>
@@ -761,16 +761,16 @@
             <action name="lower" identifier="data/vehicles/holaras/mes400/mes400.xml" lastDirection="-1"/>
         </actionController>
     </vehicle>
-    <vehicle filename="data/vehicles/tenwinkel/weight2500/weight2500.xml" id="13" isAbsolute="true" age="1.000000" price="3750.000000" farmId="1" propertyState="1" operatingTime="18475.250000">
-        <component index="1" position="179.58474731445 101.58782196045 36.62572479248" rotation="-23.192458864554 -88.729737583018 28.102557207924"/>
+    <vehicle filename="data/vehicles/tenwinkel/weight2500/weight2500.xml" id="13" isAbsolute="true" age="1.000000" price="3750.000000" farmId="1" propertyState="1" operatingTime="18592.833984">
+        <component index="1" position="157.25207519531 100.51566314697 42.020732879639" rotation="1.4865256793345 -78.41737454016 0.0044483599664058"/>
         <configuration name="baseMaterial" id="35"/>
         <boughtConfiguration name="baseMaterial" id="7"/>
         <boughtConfiguration name="baseMaterial" id="35"/>
         <washable>
             <dirtNode amount="1.000000"/>
         </washable>
-        <wearable damage="0.223925">
-            <wearNode amount="0.371112"/>
+        <wearable damage="0.225551">
+            <wearNode amount="0.372601"/>
         </wearable>
         <wheels lastWheelConfiguration="1"/>
         <attacherJoints comboDirection="-1"/>
@@ -841,8 +841,8 @@
         <actionController lastDirection="-1" numActions="1"/>
     </vehicle>
     <vehicle modName="pdlc_antonioCarraroPack" filename="$pdlcdir$antonioCarraroPack/vehicles/antonioCarraro/tgf10900R/tgf10900R.xml" id="16" isAbsolute="true" age="1.000000" price="62000.000000" farmId="1" propertyState="1" operatingTime="4730.485840" selectedObjectIndex="1" subSelectedObjectIndex="1">
-        <component index="1" position="54.095043182373 99.936820983887 -60.62068939209" rotation="-179.0430545251 -48.083681398338 -178.43213508498"/>
-        <component index="2" position="54.091609954834 99.936737060547 -60.61686706543" rotation="-178.50140686354 -48.073248284381 -179.16009664672"/>
+        <component index="1" position="54.095119476318 99.936828613281 -60.620800018311" rotation="-179.0429315817 -48.077814265841 -178.43223070763"/>
+        <component index="2" position="54.091686248779 99.936744689941 -60.616973876953" rotation="-178.50157078808 -48.067422133019 -179.15986442029"/>
         <configuration name="design2" id="4"/>
         <configuration name="attacherJoint" id="1"/>
         <configuration name="design" id="2"/>
@@ -1474,7 +1474,7 @@
         <licensePlates variation="2" characters="DEE.COVAN" colorIndex="31" placementIndex="1"/>
         <wheels lastWheelConfiguration="4"/>
         <enterable activeCameraIndex="1" isTabbable="true">
-            <camera rotation="-27.864512092934 1127.5864109443 0" translation="0 0 13.999983773832" zoom="14.000009" fovY="0.950021"/>
+            <camera rotation="-27.864512092934 1127.5864109443 0" translation="0 0 13.999983583098" zoom="14.000009" fovY="0.950021"/>
             <camera rotation="-18.126132679037 175.63591921862 0" translation="0 2.5139729976654 -0.84676897525787" zoom="2.652759" fovY="1.047198"/>
         </enterable>
         <fillUnit>
@@ -2111,7 +2111,7 @@
         </cylindered>
         <wheels lastWheelConfiguration="2"/>
         <enterable activeCameraIndex="1" isTabbable="true">
-            <camera rotation="-33.664255318854 163.99858762071 0" translation="0 0 11.299985684954" zoom="11.300010" fovY="0.950021"/>
+            <camera rotation="-32.433384138511 163.99858762071 0" translation="0 0 11.299985684954" zoom="11.300010" fovY="0.950021"/>
             <camera rotation="-18.000000500896 180.00000500896 0" translation="0.54921299219131 1.7294549942017 -0.40034800767899" zoom="1.858216" fovY="1.047198"/>
         </enterable>
         <fillUnit>
@@ -2255,9 +2255,9 @@
         </realDirtColor>
     </vehicle>
     <vehicle filename="data/vehicles/elho/duett7300/duett7300.xml" id="37" isAbsolute="true" age="0.000000" price="52500.000000" farmId="1" propertyState="1" operatingTime="6417.042969" selectedObjectIndex="1" subSelectedObjectIndex="1">
-        <component index="1" position="180.96139526367 99.719909667969 31.745006561279" rotation="166.0793008389 -7.8981993835446 179.96761625191"/>
-        <component index="2" position="179.23342895508 100.32745361328 32.392059326172" rotation="167.53780577389 -7.9175561396524 179.93903874042"/>
-        <component index="3" position="182.80059814453 100.32489013672 31.89917755127" rotation="167.62021883642 -7.8661393293542 179.9977100654"/>
+        <component index="1" position="180.95750427246 99.720161437988 31.74555015564" rotation="166.10991374676 -7.9508259910996 179.94345104263"/>
+        <component index="2" position="179.23168945313 100.32807159424 32.393604278564" rotation="167.62538245943 -7.9263047582056 179.91488719152"/>
+        <component index="3" position="182.79707336426 100.32486724854 31.897621154785" rotation="167.64241695122 -7.9154242668577 179.98294319641"/>
         <configuration name="folding" id="1"/>
         <boughtConfiguration name="folding" id="1"/>
         <washable>
@@ -2380,8 +2380,8 @@
             <action name="lowerPickup" identifier="C:/Users/Dmytro/Documents/My Games/FarmingSimulator2022/mods/FS22_kroneRX_MX_Pack/data/mx370.xml" lastDirection="-1"/>
         </actionController>
     </vehicle>
-    <vehicle filename="data/vehicles/holaras/mes400/mes400.xml" id="40" isAbsolute="true" age="0.000000" price="6800.000000" farmId="1" propertyState="1" operatingTime="1924.453003">
-        <component index="1" position="185.87530517578 101.9009475708 36.499439239502" rotation="-167.88443787427 88.725735092164 -151.62196236614"/>
+    <vehicle filename="data/vehicles/holaras/mes400/mes400.xml" id="40" isAbsolute="true" age="0.000000" price="6800.000000" farmId="1" propertyState="1" operatingTime="2042.035767">
+        <component index="1" position="163.32301330566 100.69896697998 40.776287078857" rotation="167.21409578837 78.417497483565 -179.99605715962"/>
         <configuration name="folding" id="1"/>
         <configuration name="fillUnit" id="1"/>
         <configuration name="inputAttacherJoint" id="1"/>
@@ -2389,10 +2389,10 @@
         <boughtConfiguration name="fillUnit" id="1"/>
         <boughtConfiguration name="inputAttacherJoint" id="1"/>
         <washable>
-            <dirtNode amount="0.100042"/>
+            <dirtNode amount="0.107982"/>
         </washable>
-        <wearable damage="0.016294">
-            <wearNode amount="0.018758"/>
+        <wearable damage="0.017543">
+            <wearNode amount="0.020247"/>
         </wearable>
         <wheels lastWheelConfiguration="1"/>
         <attacherJoints comboDirection="-1"/>
