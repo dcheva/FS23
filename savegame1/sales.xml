@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <sales>
-    <item timeLeft="7" isGenerated="true" xmlFilename="data/vehicles/newHolland/t6/t6.xml" age="8" price="63091" damage="0.521583" wear="0.418578" operatingTime="23785.634766">
+    <item timeLeft="6" isGenerated="true" xmlFilename="data/vehicles/newHolland/t6/t6.xml" age="8" price="63091" damage="0.521583" wear="0.418578" operatingTime="23785.634766">
         <boughtConfiguration name="motor" id="2"/>
     </item>
-    <item timeLeft="35" isGenerated="true" xmlFilename="data/vehicles/johnDeere/headerHD45X/headerHD45X.xml" age="29" price="35529" damage="0.258777" wear="0.948538" operatingTime="73766.812500"/>
-    <item timeLeft="20" isGenerated="true" xmlFilename="data/vehicles/newHolland/l218/l218.xml" age="11" price="21045" damage="0.431062" wear="0.384612" operatingTime="22516.716797"/>
+    <item timeLeft="34" isGenerated="true" xmlFilename="data/vehicles/johnDeere/headerHD45X/headerHD45X.xml" age="29" price="35529" damage="0.258777" wear="0.948538" operatingTime="73766.812500"/>
+    <item timeLeft="19" isGenerated="true" xmlFilename="data/vehicles/newHolland/l218/l218.xml" age="11" price="21045" damage="0.431062" wear="0.384612" operatingTime="22516.716797"/>
 </sales>
