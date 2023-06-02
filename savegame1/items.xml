@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <items>
-    <item className="Bale" id="1" filename="data/objects/squarebales/squarebale240.xml" position="154.4884185791 106.22547912598 1009.9643554688" rotation="179.99969082025 -51.648401522397 -179.99960885798" valueScale="1.000000" fillLevel="9000.000000" fillType="STRAW" farmId="1" isMissionBale="false" wrappingState="0.000000" wrappingColor="1 1 1 1"/>
-    <item className="Bale" id="2" filename="data/objects/squarebales/squarebale240.xml" position="155.23081970215 106.22547149658 1008.8317260742" rotation="179.99616644264 -50.405597376495 -179.99254644238" valueScale="1.000000" fillLevel="9000.000000" fillType="STRAW" farmId="1" isMissionBale="false" wrappingState="0.000000" wrappingColor="1 1 1 1"/>
+    <item className="Bale" id="1" filename="data/objects/squarebales/squarebale240.xml" position="154.4884185791 106.22548675537 1009.9643554688" rotation="179.99990938631 -51.648435673343 -179.99980010328" valueScale="1.000000" fillLevel="9000.000000" fillType="STRAW" farmId="1" isMissionBale="false" wrappingState="0.000000" wrappingColor="1 1 1 1"/>
+    <item className="Bale" id="2" filename="data/objects/squarebales/squarebale240.xml" position="155.23081970215 106.22547149658 1008.8317260742" rotation="179.99820183902 -50.402728697043 -179.99633036718" valueScale="1.000000" fillLevel="9000.000000" fillType="STRAW" farmId="1" isMissionBale="false" wrappingState="0.000000" wrappingColor="1 1 1 1"/>
 </items>
