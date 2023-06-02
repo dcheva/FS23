@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <farms>
-    <farm farmId="1" name="Covans" color="1" loan="3000000.000000" money="199464.781250">
+    <farm farmId="1" name="Covans" color="1" loan="3000000.000000" money="109431.335938">
         <players>
-            <player uniqueUserId="player" farmManager="true" lastNickname="Dmytro" timeLastConnected="2023/06/02 02:46" buyVehicle="true" sellVehicle="true" buyPlaceable="true" sellPlaceable="true" manageContracts="true" tradeAnimals="true" createFields="true" landscaping="true" hireAssistant="true" resetVehicle="true" manageProductions="true" cutTrees="true" manageRights="true" transferMoney="true" updateFarm="true" manageContracting="true"/>
+            <player uniqueUserId="player" farmManager="true" lastNickname="Dmytro" timeLastConnected="2023/06/03 01:15" buyVehicle="true" sellVehicle="true" buyPlaceable="true" sellPlaceable="true" manageContracts="true" tradeAnimals="true" createFields="true" landscaping="true" hireAssistant="true" resetVehicle="true" manageProductions="true" cutTrees="true" manageRights="true" transferMoney="true" updateFarm="true" manageContracting="true"/>
         </players>
         <handTools>
             <handTool filename="data/firstPerson/chainsaws/mcCulloch/mcCullochCS410.xml"/>
@@ -37,7 +37,7 @@
             <transportMissionCount>0</transportMissionCount>
             <revenue>0.000000</revenue>
             <expenses>141.676590</expenses>
-            <playTime>-998734.250000</playTime>
+            <playTime>-998730.562500</playTime>
             <plantedTreeCount>0</plantedTreeCount>
             <cutTreeCount>109</cutTreeCount>
             <woodTonsSold>0.000000</woodTonsSold>
@@ -63,7 +63,7 @@
                 <soldAnimals>0.000000</soldAnimals>
                 <constructionCost>0.000000</constructionCost>
                 <soldBuildings>0.000000</soldBuildings>
-                <fieldPurchase>0.000000</fieldPurchase>
+                <fieldPurchase>-4590033.500000</fieldPurchase>
                 <fieldSelling>0.000000</fieldSelling>
                 <vehicleRunningCost>0.000000</vehicleRunningCost>
                 <vehicleLeasingCost>0.000000</vehicleLeasingCost>
@@ -86,7 +86,7 @@
                 <incomeBga>0.000000</incomeBga>
                 <missionIncome>0.000000</missionIncome>
                 <wagePayment>0.000000</wagePayment>
-                <other>0.000000</other>
+                <other>4500000.000000</other>
                 <loanInterest>0.000000</loanInterest>
                 <ProductionDeliveryCosts>0.000000</ProductionDeliveryCosts>
             </stats>

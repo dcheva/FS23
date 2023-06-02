@@ -251,9 +251,9 @@
             <farmland farmlandId="37" harvestedArea="176.699249" nOffsetSum="-1.593412" pendingReset="false"/>
             <farmland farmlandId="35" harvestedArea="337.458069" nOffsetSum="-3.732044" pendingReset="false"/>
             <farmland farmlandId="46" harvestedArea="2.516415" nOffsetSum="-0.029886" pendingReset="false"/>
-            <farmland farmlandId="36" harvestedArea="328.907562" nOffsetSum="-3.215800" pendingReset="false"/>
-            <farmland farmlandId="26" harvestedArea="1.593402" nOffsetSum="-0.014914" pendingReset="false"/>
             <farmland farmlandId="38" harvestedArea="0.276801" nOffsetSum="-0.002809" pendingReset="false"/>
+            <farmland farmlandId="26" harvestedArea="1.593402" nOffsetSum="-0.014914" pendingReset="false"/>
+            <farmland farmlandId="36" harvestedArea="328.907562" nOffsetSum="-3.215800" pendingReset="false"/>
         </nitrogen>
         <ph>
             <farmland farmlandId="34" harvestedArea="0.982512" phOffsetSum="-0.006370" pendingReset="false"/>
@@ -263,9 +263,9 @@
             <farmland farmlandId="37" harvestedArea="176.699249" phOffsetSum="-0.398799" pendingReset="false"/>
             <farmland farmlandId="35" harvestedArea="337.458069" phOffsetSum="-1.769977" pendingReset="false"/>
             <farmland farmlandId="46" harvestedArea="2.516415" phOffsetSum="-0.010017" pendingReset="false"/>
-            <farmland farmlandId="36" harvestedArea="328.907562" phOffsetSum="-1.074021" pendingReset="false"/>
-            <farmland farmlandId="26" harvestedArea="1.593402" phOffsetSum="-0.003187" pendingReset="false"/>
             <farmland farmlandId="38" harvestedArea="0.276801" phOffsetSum="-0.000830" pendingReset="false"/>
+            <farmland farmlandId="26" harvestedArea="1.593402" phOffsetSum="-0.003187" pendingReset="false"/>
+            <farmland farmlandId="36" harvestedArea="328.907562" phOffsetSum="-1.074021" pendingReset="false"/>
         </ph>
         <herbicide>
             <farmland farmlandId="35" spotSpray="0.000000" fullSpray="0.000000" mechanical="0.000000" pendingReset="false"/>
@@ -285,13 +285,13 @@
         <harvestedStates>
             <harvestedState farmlandId="34" state="2"/>
             <harvestedState farmlandId="28" state="2"/>
-            <harvestedState farmlandId="27" state="2"/>
+            <harvestedState farmlandId="26" state="2"/>
             <harvestedState farmlandId="37" state="2"/>
             <harvestedState farmlandId="35" state="2"/>
             <harvestedState farmlandId="46" state="2"/>
-            <harvestedState farmlandId="36" state="2"/>
-            <harvestedState farmlandId="26" state="2"/>
             <harvestedState farmlandId="38" state="2"/>
+            <harvestedState farmlandId="27" state="2"/>
+            <harvestedState farmlandId="36" state="2"/>
         </harvestedStates>
     </environmentalScore>
 </precisionFarming>
