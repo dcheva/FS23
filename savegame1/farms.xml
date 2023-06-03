@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <farms>
-    <farm farmId="1" name="Covans" color="1" loan="6500000.000000" money="162187.718750">
+    <farm farmId="1" name="Covans" color="1" loan="6500000.000000" money="142187.718750">
         <players>
-            <player uniqueUserId="player" farmManager="true" lastNickname="Dmytro" timeLastConnected="2023/06/03 13:18" buyVehicle="true" sellVehicle="true" buyPlaceable="true" sellPlaceable="true" manageContracts="true" tradeAnimals="true" createFields="true" landscaping="true" hireAssistant="true" resetVehicle="true" manageProductions="true" cutTrees="true" manageRights="true" transferMoney="true" updateFarm="true" manageContracting="true"/>
+            <player uniqueUserId="player" farmManager="true" lastNickname="Dmytro" timeLastConnected="2023/06/03 15:03" buyVehicle="true" sellVehicle="true" buyPlaceable="true" sellPlaceable="true" manageContracts="true" tradeAnimals="true" createFields="true" landscaping="true" hireAssistant="true" resetVehicle="true" manageProductions="true" cutTrees="true" manageRights="true" transferMoney="true" updateFarm="true" manageContracting="true"/>
         </players>
         <handTools>
             <handTool filename="data/firstPerson/chainsaws/mcCulloch/mcCullochCS410.xml"/>
         </handTools>
         <statistics>
-            <traveledDistance>211.290314</traveledDistance>
+            <traveledDistance>212.477753</traveledDistance>
             <fuelUsage>867.118774</fuelUsage>
             <seedUsage>3249.345459</seedUsage>
             <sprayUsage>35277.554688</sprayUsage>
@@ -37,7 +37,7 @@
             <transportMissionCount>0</transportMissionCount>
             <revenue>0.000000</revenue>
             <expenses>163.414322</expenses>
-            <playTime>-998311.875000</playTime>
+            <playTime>-998309.062500</playTime>
             <plantedTreeCount>0</plantedTreeCount>
             <cutTreeCount>120</cutTreeCount>
             <woodTonsSold>0.000000</woodTonsSold>
@@ -48,7 +48,7 @@
             <horseJumpCount>0</horseJumpCount>
             <soldCottonBales>0</soldCottonBales>
             <wrappedBales>0</wrappedBales>
-            <tractorDistance>211.220169</tractorDistance>
+            <tractorDistance>212.407608</tractorDistance>
             <carDistance>0.070145</carDistance>
             <truckDistance>0.000000</truckDistance>
             <horseDistance>0.000000</horseDistance>
@@ -57,7 +57,7 @@
         </statistics>
         <finances>
             <stats day="0">
-                <newVehiclesCost>-27700.000000</newVehiclesCost>
+                <newVehiclesCost>-47700.000000</newVehiclesCost>
                 <soldVehicles>20720.000000</soldVehicles>
                 <newAnimalsCost>0.000000</newAnimalsCost>
                 <soldAnimals>0.000000</soldAnimals>

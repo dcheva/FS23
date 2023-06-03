@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <economy>
-    <greatDemands>
-        <greatDemand placeableId="27" fillTypeName="WATER" demandMultiplier="1.300000" demandStartDay="12" demandStartHour="7" demandDuration="18" isRunning="false" isValid="true"/>
-    </greatDemands>
     <fillTypes>
         <fillType fillType="UNKNOWN">
             <history>
@@ -477,7 +474,7 @@
                 <period period="5">1000</period>
                 <period period="6">987</period>
                 <period period="7">976</period>
-                <period period="8">1013</period>
+                <period period="8">1012</period>
                 <period period="9">1000</period>
                 <period period="10">1000</period>
                 <period period="11">1000</period>
