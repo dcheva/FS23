@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <farms>
-    <farm farmId="1" name="Covans" color="1" loan="6500000.000000" money="163572.562500">
+    <farm farmId="1" name="Covans" color="1" loan="6500000.000000" money="162187.718750">
         <players>
-            <player uniqueUserId="player" farmManager="true" lastNickname="Dmytro" timeLastConnected="2023/06/03 03:18" buyVehicle="true" sellVehicle="true" buyPlaceable="true" sellPlaceable="true" manageContracts="true" tradeAnimals="true" createFields="true" landscaping="true" hireAssistant="true" resetVehicle="true" manageProductions="true" cutTrees="true" manageRights="true" transferMoney="true" updateFarm="true" manageContracting="true"/>
+            <player uniqueUserId="player" farmManager="true" lastNickname="Dmytro" timeLastConnected="2023/06/03 13:18" buyVehicle="true" sellVehicle="true" buyPlaceable="true" sellPlaceable="true" manageContracts="true" tradeAnimals="true" createFields="true" landscaping="true" hireAssistant="true" resetVehicle="true" manageProductions="true" cutTrees="true" manageRights="true" transferMoney="true" updateFarm="true" manageContracting="true"/>
         </players>
         <handTools>
             <handTool filename="data/firstPerson/chainsaws/mcCulloch/mcCullochCS410.xml"/>
         </handTools>
         <statistics>
-            <traveledDistance>204.080582</traveledDistance>
-            <fuelUsage>863.118713</fuelUsage>
+            <traveledDistance>211.290314</traveledDistance>
+            <fuelUsage>867.118774</fuelUsage>
             <seedUsage>3249.345459</seedUsage>
             <sprayUsage>35277.554688</sprayUsage>
             <workedHectares>52.240238</workedHectares>
@@ -36,10 +36,10 @@
             <fieldJobMissionByNPC>0</fieldJobMissionByNPC>
             <transportMissionCount>0</transportMissionCount>
             <revenue>0.000000</revenue>
-            <expenses>158.982544</expenses>
-            <playTime>-998363.500000</playTime>
+            <expenses>163.414322</expenses>
+            <playTime>-998311.875000</playTime>
             <plantedTreeCount>0</plantedTreeCount>
-            <cutTreeCount>116</cutTreeCount>
+            <cutTreeCount>120</cutTreeCount>
             <woodTonsSold>0.000000</woodTonsSold>
             <treeTypesCut>000000</treeTypesCut>
             <petDogCount>0</petDogCount>
@@ -48,7 +48,7 @@
             <horseJumpCount>0</horseJumpCount>
             <soldCottonBales>0</soldCottonBales>
             <wrappedBales>0</wrappedBales>
-            <tractorDistance>204.010437</tractorDistance>
+            <tractorDistance>211.220169</tractorDistance>
             <carDistance>0.070145</carDistance>
             <truckDistance>0.000000</truckDistance>
             <horseDistance>0.000000</horseDistance>
@@ -65,11 +65,11 @@
                 <soldBuildings>90899.000000</soldBuildings>
                 <fieldPurchase>-4590033.500000</fieldPurchase>
                 <fieldSelling>0.000000</fieldSelling>
-                <vehicleRunningCost>-5669.143555</vehicleRunningCost>
-                <vehicleLeasingCost>0.000000</vehicleLeasingCost>
+                <vehicleRunningCost>-5673.575195</vehicleRunningCost>
+                <vehicleLeasingCost>-1069.949951</vehicleLeasingCost>
                 <propertyMaintenance>0.000000</propertyMaintenance>
                 <propertyIncome>0.000000</propertyIncome>
-                <productionCosts>-192.169968</productionCosts>
+                <productionCosts>-202.201950</productionCosts>
                 <soldWood>0.000000</soldWood>
                 <soldBales>0.000000</soldBales>
                 <soldWool>0.000000</soldWool>
@@ -79,13 +79,13 @@
                 <purchaseSeeds>0.000000</purchaseSeeds>
                 <purchaseFertilizer>0.000000</purchaseFertilizer>
                 <purchaseSaplings>0.000000</purchaseSaplings>
-                <purchaseWater>-947.916687</purchaseWater>
+                <purchaseWater>-1015.625000</purchaseWater>
                 <purchaseBales>0.000000</purchaseBales>
                 <purchasePallets>0.000000</purchasePallets>
                 <harvestIncome>0.000000</harvestIncome>
                 <incomeBga>0.000000</incomeBga>
                 <missionIncome>0.000000</missionIncome>
-                <wagePayment>-2524.869141</wagePayment>
+                <wagePayment>-2757.589600</wagePayment>
                 <other>4477600.500000</other>
                 <loanInterest>0.000000</loanInterest>
                 <ProductionDeliveryCosts>0.000000</ProductionDeliveryCosts>
