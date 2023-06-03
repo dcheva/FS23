@@ -1,4 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <treePlant>
     <tree treeType="PINE" position="-2.4671 102.4848 -10.8189" rotation="0.0000 0.0000 0.0000" growthState="1.000000" growthStateI="7" isGrowing="false" splitShapeFileId="1"/>
+    <tree treeType="SPRUCE1" position="-513.4196 104.0555 388.7774" rotation="0.0000 253.7748 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="2"/>
+    <tree treeType="SPRUCE1" position="-493.9167 105.1991 386.8314" rotation="0.0000 150.4336 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="3"/>
+    <tree treeType="SPRUCE1" position="-504.4821 105.0054 393.7546" rotation="0.0000 269.4748 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="4"/>
+    <tree treeType="SPRUCE1" position="-526.9233 103.1427 390.3019" rotation="0.0000 176.5528 0.0000" growthState="0.750000" growthStateI="3" isGrowing="false" splitShapeFileId="5"/>
 </treePlant>
