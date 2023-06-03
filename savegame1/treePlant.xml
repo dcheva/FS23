@@ -5,4 +5,30 @@
     <tree treeType="SPRUCE1" position="-493.9167 105.1991 386.8314" rotation="0.0000 150.4336 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="3"/>
     <tree treeType="SPRUCE1" position="-504.4821 105.0054 393.7546" rotation="0.0000 269.4748 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="4"/>
     <tree treeType="SPRUCE1" position="-526.9233 103.1427 390.3019" rotation="0.0000 176.5528 0.0000" growthState="0.750000" growthStateI="3" isGrowing="false" splitShapeFileId="5"/>
+    <tree treeType="PAGODADOGWOOD" position="-330.1102 100.0000 277.6259" rotation="0.0000 215.7402 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="6"/>
+    <tree treeType="PAGODADOGWOOD" position="-355.7019 100.0000 308.6810" rotation="0.0000 134.7528 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="7"/>
+    <tree treeType="PAGODADOGWOOD" position="-365.6471 100.1669 320.8148" rotation="0.0000 30.3850 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="8"/>
+    <tree treeType="PAGODADOGWOOD" position="-368.3919 101.4044 344.3571" rotation="0.0000 81.5135 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="9"/>
+    <tree treeType="PAGODADOGWOOD" position="-367.7371 102.4981 360.0453" rotation="0.0000 307.4952 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="10"/>
+    <tree treeType="PAGODADOGWOOD" position="-354.9183 100.2479 332.8424" rotation="0.0000 197.4775 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="11"/>
+    <tree treeType="PAGODADOGWOOD" position="-361.5981 101.9446 358.5105" rotation="0.0000 40.1720 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="12"/>
+    <tree treeType="PAGODADOGWOOD" position="-354.5215 102.7207 378.6487" rotation="0.0000 342.3723 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="13"/>
+    <tree treeType="PAGODADOGWOOD" position="-357.1692 100.1583 327.2509" rotation="0.0000 37.3823 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="14"/>
+    <tree treeType="PAGODADOGWOOD" position="-362.9702 100.0000 260.3831" rotation="0.0000 286.6549 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="15"/>
+    <tree treeType="PAGODADOGWOOD" position="-339.3011 100.0000 265.4915" rotation="0.0000 347.2111 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="16"/>
+    <tree treeType="PAGODADOGWOOD" position="-366.9569 100.0000 285.0878" rotation="0.0000 128.1743 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="17"/>
+    <tree treeType="PAGODADOGWOOD" position="-367.2667 100.0276 311.6008" rotation="0.0000 273.1645 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="18"/>
+    <tree treeType="PAGODADOGWOOD" position="-349.7715 100.0000 269.8533" rotation="0.0000 299.3969 0.0000" growthState="1.000000" growthStateI="4" isGrowing="false" splitShapeFileId="19"/>
+    <tree treeType="PAGODADOGWOOD" position="-361.0992 100.0000 301.2996" rotation="0.0000 296.0787 0.0000" growthState="1.000000" growthStateI="4" isGrowing="false" splitShapeFileId="20"/>
+    <tree treeType="SHAGBARKHICKORY" position="-341.9243 100.0000 291.7675" rotation="0.0000 301.7079 0.0000" growthState="0.400000" growthStateI="2" isGrowing="false" splitShapeFileId="21"/>
+    <tree treeType="SHAGBARKHICKORY" position="-355.0577 100.0000 312.5569" rotation="0.0000 341.3355 0.0000" growthState="0.400000" growthStateI="2" isGrowing="false" splitShapeFileId="22"/>
+    <tree treeType="PAGODADOGWOOD" position="-367.2986 100.5975 331.3538" rotation="0.0000 324.2399 0.0000" growthState="0.750000" growthStateI="3" isGrowing="false" splitShapeFileId="23"/>
+    <tree treeType="PAGODADOGWOOD" position="-355.5279 100.0000 279.9711" rotation="0.0000 347.6018 0.0000" growthState="0.750000" growthStateI="3" isGrowing="false" splitShapeFileId="24"/>
+    <tree treeType="SHAGBARKHICKORY" position="-328.4523 100.0000 253.2900" rotation="0.0000 101.1088 0.0000" growthState="1.000000" growthStateI="5" isGrowing="false" splitShapeFileId="25"/>
+    <tree treeType="SHAGBARKHICKORY" position="-326.1870 100.0000 250.1534" rotation="0.0000 236.2242 0.0000" growthState="0.400000" growthStateI="2" isGrowing="false" splitShapeFileId="26"/>
+    <tree treeType="SHAGBARKHICKORY" position="-338.2264 100.0000 238.1061" rotation="0.0000 350.2196 0.0000" growthState="0.600000" growthStateI="3" isGrowing="false" splitShapeFileId="27"/>
+    <tree treeType="DOWNYSERVICEBERRY" position="-329.3020 100.0000 227.7195" rotation="0.0000 272.5853 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="28"/>
+    <tree treeType="DOWNYSERVICEBERRY" position="-322.0962 100.0000 215.8873" rotation="0.0000 81.7933 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="29"/>
+    <tree treeType="DOWNYSERVICEBERRY" position="-313.4733 100.0000 202.2817" rotation="0.0000 94.8968 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="30"/>
+    <tree treeType="PAGODADOGWOOD" position="-329.1507 100.0000 223.8984" rotation="0.0000 16.1351 0.0000" growthState="0.500000" growthStateI="2" isGrowing="false" splitShapeFileId="31"/>
 </treePlant>
