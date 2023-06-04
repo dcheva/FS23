@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <farms>
-    <farm farmId="1" name="Covans" color="1" loan="6500000.000000" money="137759.718750">
+    <farm farmId="1" name="Covans" color="1" loan="6500000.000000" money="134880.421875">
         <players>
             <player uniqueUserId="player" farmManager="true" lastNickname="Dmytro" timeLastConnected="2023/06/05 01:15" buyVehicle="true" sellVehicle="true" buyPlaceable="true" sellPlaceable="true" manageContracts="true" tradeAnimals="true" createFields="true" landscaping="true" hireAssistant="true" resetVehicle="true" manageProductions="true" cutTrees="true" manageRights="true" transferMoney="true" updateFarm="true" manageContracting="true"/>
         </players>
@@ -8,8 +8,8 @@
             <handTool filename="data/firstPerson/chainsaws/mcCulloch/mcCullochCS410.xml"/>
         </handTools>
         <statistics>
-            <traveledDistance>216.439987</traveledDistance>
-            <fuelUsage>868.118835</fuelUsage>
+            <traveledDistance>227.632431</traveledDistance>
+            <fuelUsage>875.119934</fuelUsage>
             <seedUsage>3249.345459</seedUsage>
             <sprayUsage>35277.554688</sprayUsage>
             <workedHectares>52.240238</workedHectares>
@@ -37,7 +37,7 @@
             <transportMissionCount>0</transportMissionCount>
             <revenue>0.000000</revenue>
             <expenses>163.414322</expenses>
-            <playTime>-998292.000000</playTime>
+            <playTime>-998259.125000</playTime>
             <plantedTreeCount>0</plantedTreeCount>
             <cutTreeCount>120</cutTreeCount>
             <woodTonsSold>0.000000</woodTonsSold>
@@ -48,7 +48,7 @@
             <horseJumpCount>0</horseJumpCount>
             <soldCottonBales>0</soldCottonBales>
             <wrappedBales>0</wrappedBales>
-            <tractorDistance>216.369843</tractorDistance>
+            <tractorDistance>227.562286</tractorDistance>
             <carDistance>0.070145</carDistance>
             <truckDistance>0.000000</truckDistance>
             <horseDistance>0.000000</horseDistance>
@@ -57,8 +57,8 @@
         </statistics>
         <finances>
             <stats day="0">
-                <newVehiclesCost>-47700.000000</newVehiclesCost>
-                <soldVehicles>20720.000000</soldVehicles>
+                <newVehiclesCost>-127700.000000</newVehiclesCost>
+                <soldVehicles>100206.000000</soldVehicles>
                 <newAnimalsCost>0.000000</newAnimalsCost>
                 <soldAnimals>0.000000</soldAnimals>
                 <constructionCost>-498882.531250</constructionCost>
@@ -86,7 +86,7 @@
                 <incomeBga>0.000000</incomeBga>
                 <missionIncome>0.000000</missionIncome>
                 <wagePayment>-2757.589600</wagePayment>
-                <other>4473172.500000</other>
+                <other>4470807.000000</other>
                 <loanInterest>0.000000</loanInterest>
                 <ProductionDeliveryCosts>0.000000</ProductionDeliveryCosts>
             </stats>

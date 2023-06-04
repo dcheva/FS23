@@ -51,10 +51,10 @@
         <foundHelpIcons>00000000000000000000</foundHelpIcons>
     </map>
     <statistics>
-        <money>137759</money>
+        <money>134880</money>
         <playTime>0.000000</playTime>
     </statistics>
-    <slotSystem slotUsage="1063"/>
+    <slotSystem slotUsage="1056"/>
     <mapsSplitShapeFileIds count="1">
         <id id="0"/>
     </mapsSplitShapeFileIds>
@@ -120,7 +120,7 @@
     <mod modName="FS22_containerAutoload" title="Autoload Pallet Storage" version="1.0.0.0" required="false" fileHash="6a18c332fbf3fff6ec2ea5d92538f8ac"/>
     <mod modName="FS22_morepalletsfix" title="More Pallets Fix" version="1.0.0.0" required="false" fileHash="2700fc6cd89fd335da9b397735403da0"/>
     <mod modName="FS22_ObjectStorage" title="Хранилище Объектов" version="1.2.0.0" required="false" fileHash="503f75754bafa247e7cf3bd7711aa14c"/>
-    <mod modName="FS22_TLX3500_Series" title="TLX 3500 Series" version="1.1.0.0" required="false" fileHash="417da89ba54cb391e60291f99a2da3d8"/>
+    <mod modName="FS22_A2100Chipper" title="A2100 Chipper" version="0.0.4" required="false" fileHash="d56443fb0e224c1c80f5dc98aae74619"/>
     <mod modName="FS22_InfoDisplayExtension" title="Info Display Extension" version="1.5.2.0" required="false" fileHash="b72f1756f506557776b98679f279796d"/>
     <mod modName="FS22_Rapid_A_800S_BD" title="Vaederstad Rapid 800s BD" version="1.0.0.0" required="false" fileHash="14fd6879cfec86a7b736ed9b056b7aa4"/>
     <mod modName="FS22_VehicleWorkshopRamps" title="Vehicle Workshop Ramps" version="1.0.0.0" required="false" fileHash="dae99cc81e3628db02c48a8c7ea97da3"/>
@@ -134,7 +134,7 @@
     <mod modName="FS22_Lizard_Trex_600" title="LIZARD Trex600" version="1.0.0.0" required="false" fileHash="f18efe711c76416b6fd05e5165297b01"/>
     <mod modName="FS22_LizardBulwa2" title="Lizard Bulwa 2" version="1.0.0.0" required="false" fileHash="670858f8697cd415ca0b7681a293ef0f"/>
     <mod modName="FS22_placeablePackFarmhouses" title="Placeable Pack Farmhouses" version="1.0.0.0" required="false" fileHash="10337990a6f7a299361b51a8b2aca3ac"/>
-    <mod modName="FS22_A2100Chipper" title="A2100 Chipper" version="0.0.4" required="false" fileHash="d56443fb0e224c1c80f5dc98aae74619"/>
+    <mod modName="FS22_TLX3500_Series" title="TLX 3500 Series" version="1.1.0.0" required="false" fileHash="417da89ba54cb391e60291f99a2da3d8"/>
     <mod modName="FS22_FERRANDxDHUGUES_pack" title="FERRAND / DHUGUES Vineyard Pack" version="1.0.0.0" required="false" fileHash="2979be8e58d941e46d2775ba929793e1"/>
     <mod modName="FS22_VineyardPack_crossplay" title="Vineyard Pack Crossplay" version="1.0.0.0" required="false" fileHash="019cb9104b9bed8b69a5946f006a53f6"/>
     <mod modName="FS22_caseIH1455XL" title="Case IH 1455 XL" version="1.0.0.0" required="false" fileHash="d00d288b21a23b7e4627934c1d727201"/>
