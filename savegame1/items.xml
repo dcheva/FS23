@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<items>
-    <item className="Bale" id="1" filename="data/objects/squarebales/squarebale240.xml" position="154.48844909668 106.22547912598 1009.9642944336" rotation="179.99955421647 -51.648568862032 -179.99949957496" valueScale="1.000000" fillLevel="9000.000000" fillType="STRAW" farmId="1" isMissionBale="false" wrappingState="0.000000" wrappingColor="1 1 1 1"/>
-    <item className="Bale" id="2" filename="data/objects/squarebales/squarebale240.xml" position="155.23066711426 106.22547912598 1008.8323974609" rotation="179.99974546177 -50.466211890284 -179.99964983912" valueScale="1.000000" fillLevel="9000.000000" fillType="STRAW" farmId="1" isMissionBale="false" wrappingState="0.000000" wrappingColor="1 1 1 1"/>
-</items>
